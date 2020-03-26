@@ -16,11 +16,14 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 100;
+  font-family: "Raleway", sans-serif;
+  h5 {
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
   .iconify {
     font-size: 28pt;
     padding: 0 10px;
-    font-weight: 100;
   }
 }
 </style>
