@@ -21,6 +21,7 @@ export default {
   justify-content: center;
   align-items: center;
   font-family: "Raleway", sans-serif;
+  margin: 0 30px;
   h5 {
     font-weight: 400;
     letter-spacing: 1px;
@@ -28,6 +29,9 @@ export default {
   .iconify {
     font-size: 28pt;
     padding: 0 10px;
+  }
+  @media (max-width: 525px) {
+    justify-content: initial;
   }
 }
 </style>

@@ -27,6 +27,26 @@ export default {
   height: 270px;
   transform-style: preserve-3d;
   margin: 25px 20px;
+  @media (max-width: 450px) {
+    width: 290px;
+    height: 210px;
+    h2 {
+      font-size: 13pt;
+      margin: 0;
+    }
+    p {
+      font-size: 10pt;
+    }
+    a {
+      font-size: 8pt;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      // width: 290px;
+      // height: 210px;
+    }
+  }
 
   .face {
     position: absolute;
@@ -45,6 +65,8 @@ export default {
 
     img {
       border-radius: 10px;
+      width: 100%;
+      height: 100%;
     }
     h2,
     p,

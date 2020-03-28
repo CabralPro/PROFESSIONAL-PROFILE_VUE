@@ -1,10 +1,16 @@
 <template>
   <div class="card1" :class="reverse ? 'reverse' : ''">
-    <div class="text">
+    <div
+      class="text"
+      v-animate.repeat.fade="reverse ? 'slide-right' : 'slide-left'"
+    >
       <h1 v-html="title"></h1>
       <h3 v-html="text"></h3>
     </div>
-    <div class="image">
+    <div
+      class="image"
+      v-animate.repeat.fade="reverse ? 'slide-left' : 'slide-right'"
+    >
       <img :src="require('@/assets/img/' + img)" :alt="img" />
     </div>
   </div>
@@ -22,11 +28,15 @@ export default {
 </script>
 
 <style lang="scss">
+.reverse {
+  flex-direction: row-reverse;
+}
 .card1 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px 0;
+
   h1 {
     font-weight: 400;
     font-size: 23pt;
@@ -49,8 +59,22 @@ export default {
       margin: auto;
     }
   }
+
+  @media (max-width: 750px) {
+    flex-direction: column-reverse;
+    .text,
+    .image {
+      width: 100%;
+    }
+  }
+  @media (max-width: 570px) {
+    h1 {
+      font-size: 19pt;
+    }
+    h3 {
+      font-size: 12pt;
+    }
+  }
 }
-.reverse {
-  flex-direction: row-reverse;
-}
+
 </style>
