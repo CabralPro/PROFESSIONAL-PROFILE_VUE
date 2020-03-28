@@ -36,6 +36,9 @@ export default {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    h3 {
+      font-weight: 100;
+    }
   }
   .image {
     width: 50%;

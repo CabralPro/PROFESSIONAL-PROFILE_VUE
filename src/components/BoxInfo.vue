@@ -1,5 +1,9 @@
 <template>
-  <a :target="link? '_blank' : ''" :href="link? link: '#'" class="card">
+  <a
+    :target="currentTab ? '' : '_blank'"
+    :href="link ? link : '#'"
+    class="card"
+  >
     <span class="iconify" :data-icon="icon"></span>
     <h5>{{ this.text }}</h5>
   </a>
@@ -7,7 +11,7 @@
 
 <script>
 export default {
-  props: ["icon", "text", "link"]
+  props: ["icon", "text", "link", "currentTab"]
 };
 </script>
 
