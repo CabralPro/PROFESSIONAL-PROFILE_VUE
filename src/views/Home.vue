@@ -17,7 +17,8 @@
         pode evitar muitas dores de cabeça no futuro." img="programer2.png" reverse="true" />
       </div>
 
-      <div class="areas" id="conhecimento" v-animate.repeat.fade="'slide-up'">
+      <div id="conhecimento"></div>
+      <div class="areas" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Áreas de Conhecimento</h1>
 
         <div class="row">
@@ -85,7 +86,8 @@
           </fieldset> -->
       </div>
 
-      <div class="portifolio row" id="portifolio" v-animate.repeat.fade="'slide-up'">
+      <div id="portifolio"></div>
+      <div class="portifolio row" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Portifólio</h1>
 
         <Work title="Amikão" text="Nós, seres humanos, estamos na natureza para auxiliar o progresso
