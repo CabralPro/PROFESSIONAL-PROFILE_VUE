@@ -20,7 +20,6 @@ footer {
   text-align: center;
   align-items: center;
   padding: 150px 20px 0;
-  padding-top: 150px;
   background: linear-gradient(-187deg, #4b6cb7 0%, #182848 100%);
 
   h3 {
@@ -32,6 +31,12 @@ footer {
     width: fit-content;
     margin: 20px 0;
     border-radius: 30%;
+  }
+  @media (max-width: 525px) {
+    h3 {
+      font-size: 12pt;
+      max-width: 350px;
+    }
   }
 }
 </style>

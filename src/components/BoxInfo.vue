@@ -32,6 +32,7 @@ export default {
   }
   @media (max-width: 525px) {
     justify-content: initial;
+    margin: 0 10px;
   }
 }
 </style>

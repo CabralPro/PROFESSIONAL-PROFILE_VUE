@@ -30,6 +30,7 @@ export default {
   @media (max-width: 450px) {
     width: 290px;
     height: 210px;
+    margin: 25px 0;
     h2 {
       font-size: 13pt;
       margin: 0;
@@ -43,8 +44,6 @@ export default {
     img {
       width: 100%;
       height: 100%;
-      // width: 290px;
-      // height: 210px;
     }
   }
 
@@ -85,14 +84,6 @@ export default {
     }
   }
 }
-.work:hover {
-  .front {
-    transform: perspective(1000px) rotateX(180deg);
-  }
-  .back {
-    transform: perspective(1000px) rotateX(360deg);
-  }
-}
 
 .work:nth-child(2n + 1) {
   .face {
@@ -100,6 +91,15 @@ export default {
   }
   .back {
     transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+.work:hover {
+  .front {
+    transform: perspective(1000px) rotateX(180deg);
+  }
+  .back {
+    transform: perspective(1000px) rotateX(360deg);
   }
 }
 
