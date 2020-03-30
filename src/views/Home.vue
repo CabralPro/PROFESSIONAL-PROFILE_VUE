@@ -12,7 +12,7 @@
             tecnologias." img="programer3.png" />
 
         <Card1 title="Busco oferecer o meu melhor, visando sempre a execução das melhores práticas!" text="Um produto precisa ser inovador o suficiente para se diferenciar do resto, mas 
-        não tão inovador que o usuário não entenda! Por isso faço o possivel para entregar um 
+        não tão inovador que o usuário não entenda! Por isso faço o possível para entregar um 
         excelente produto em termos de qualidade de código, manutenibilidade e UE, pois isso 
         pode evitar muitas dores de cabeça no futuro." img="programer2.png" reverse="true" />
       </div>
