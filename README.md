@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Deploy Firebase
+```
+firebase deploy
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

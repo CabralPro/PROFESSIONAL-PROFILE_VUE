@@ -1,2 +1,0 @@
-1° compilar o projeto
-2° rodar o comando : firebase deploy
