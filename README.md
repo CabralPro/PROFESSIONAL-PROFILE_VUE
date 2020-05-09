@@ -15,6 +15,12 @@ npm run serve
 npm run build
 ```
 
+### Change Account Firebase
+```
+firebase logout
+firebase login
+```
+
 ### Deploy Firebase
 ```
 firebase deploy
