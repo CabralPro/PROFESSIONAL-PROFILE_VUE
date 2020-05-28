@@ -127,7 +127,7 @@ header {
     border-radius: 10px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    margin: 30px 0 0 auto;
+    margin: 30px 0 30px auto;
     background: #ffffff24;
 
     @media (max-width: 1200px) {

@@ -4,11 +4,8 @@
   </div>
 </template>
 
-<style lang="scss">
-@import "@/assets/scss/style.scss";
-</style>
-
 <script>
+import "@/assets/scss/style.scss";
 export default {
   name: "App"
 };

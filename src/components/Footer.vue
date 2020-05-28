@@ -21,6 +21,7 @@ footer {
   align-items: center;
   padding: 150px 20px 0;
   background: linear-gradient(-187deg, #4b6cb7 0%, #182848 100%);
+  max-width: 100%!important;
 
   h3 {
     max-width: 450px;
