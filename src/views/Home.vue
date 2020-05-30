@@ -105,11 +105,6 @@
       <div class="portifolio row" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Portifólio</h1>
 
-        <!-- <Work title="Amikão" text="Nós, seres humanos, estamos na natureza para auxiliar o progresso
-           dos animais, na mesma proporção que os anjos estão para nos auxiliar. 
-           Portanto quem chuta ou maltrata um animal é alguém que não aprendeu a amar..."
-        link="https://amikaopet.com.br/" img="amikao" />-->
-
         <Work
           title="LPSJ"
           text="Nesse aplicativo você tem acesso as principais informações do ministério LPSJ, 
@@ -119,15 +114,6 @@
           img="lpsj"
         />
 
-        <!-- <Work title="Amazon Bowling" text="No Amazon Bowling a diversão é garantida para todas as idades. 
-          Equipado com modernas pistas de boliche, mesas de sinuca e ainda temos 
-          opção de Air Game, Pebolim(totó), xadrez e dominó." link="https://www.amazonbowling.com.br/club"
-          img="amazonB" />
-
-        <Work title="GH Club" text="Nosso objetivo é fazer com que as pessoas possam vivenciar momentos 
-          inesquecíveis e aproveitar todos os momentos de lazer e convívio em família 
-        através dos nossos produtos." link="http://www.ghclub.com.br/" img="gh-club" />-->
-
         <Work
           title="Cabral Drums"
           text="Bateria Eletrônica Caseira feita com Arduíno e Raspberry Pi. O projeto também
@@ -136,15 +122,6 @@
           link="https://www.youtube.com/watch?v=0h-TJn9KokY&t=175s"
           img="cabral-drums"
         />
-
-        <!-- <Work title="Nitpan" text="Instalados no CEASA do Colubandê, a NitPan atua no mercado desde 1999 e 
-          foi totalmente renovada e reformulada visando facilitar para seus clientes a 
-          preparação dos produtos para padarias e confeitarias." link="https://nitpandoceasa.com.br/fidelidade/"
-          img="nitpan" />
-
-        <Work title="Suprevida" text="A Suprevida é uma integradora de soluções a seu serviço! Através de toda 
-          uma estrutura tecnológica, logística e financeira, somos capazes de oferecer 
-        máxima comodidade, rapidez e segurança." link="http://clube.suprevida.com.br/" img="suprevida" />-->
 
         <Work
           title="Correspondente Oficial"
