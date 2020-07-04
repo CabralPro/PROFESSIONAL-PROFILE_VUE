@@ -6,9 +6,7 @@
     <div class="face back">
       <h2 v-html="title"></h2>
       <p v-html="text"></p>
-      <a :href="link" target="_blank" class="btn">
-        Visitar
-      </a>
+      <a :href="link" target="_blank" class="btn">Visitar</a>
     </div>
   </div>
 </template>
@@ -83,32 +81,31 @@ export default {
       margin-top: 5px;
     }
   }
-}
+  &:nth-child(2n + 1) {
+    .face {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    .back {
+      transform: perspective(1000px) rotateY(180deg);
+    }
+  }
 
-.work:nth-child(2n + 1) {
-  .face {
-    transform: perspective(1000px) rotateY(0deg);
+  &:hover {
+    .front {
+      transform: perspective(1000px) rotateX(180deg);
+    }
+    .back {
+      transform: perspective(1000px) rotateX(360deg);
+    }
   }
-  .back {
-    transform: perspective(1000px) rotateY(180deg);
-  }
-}
 
-.work:hover {
-  .front {
-    transform: perspective(1000px) rotateX(180deg);
-  }
-  .back {
-    transform: perspective(1000px) rotateX(360deg);
-  }
-}
-
-.work:nth-child(2n + 1):hover {
-  .front {
-    transform: perspective(1000px) rotateY(180deg);
-  }
-  .back {
-    transform: perspective(1000px) rotateY(360deg);
+  &:nth-child(2n + 1):hover {
+    .front {
+      transform: perspective(1000px) rotateY(180deg);
+    }
+    .back {
+      transform: perspective(1000px) rotateY(360deg);
+    }
   }
 }
 </style>

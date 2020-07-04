@@ -34,9 +34,12 @@
           <div class="fieldset">
             <h2>Web</h2>
             <div class="body">
+              <Skill title="Vue" percent="100" size="35" top="27" icon="logos:vue" />
+              <Skill title="Vuetify" percent="100" size="42" top="25" icon="logos:vuetifyjs" />
+              <Skill title="Angular" percent="90" size="42" top="25" icon="logos:angular-icon" />
               <Skill title="Javascript" percent="90" icon="logos:javascript" />
-              <Skill title="Css" percent="95" size="53" top="18" icon="logos:css-3" />
-              <Skill title="Sass" percent="95" icon="logos:sass" />
+              <Skill title="Css" percent="100" size="53" top="18" icon="logos:css-3" />
+              <Skill title="Sass" percent="100" icon="logos:sass" />
               <Skill
                 title="Materialize"
                 percent="100"
@@ -46,8 +49,7 @@
               />
               <Skill title="Bootstrap" percent="100" icon="logos:bootstrap" />
               <Skill title="BootstrapVue" percent="100" image="bv.svg" left="32" />
-              <Skill title="Vue.js" percent="95" size="35" top="27" icon="logos:vue" />
-              <Skill title="Jquery" percent="80" size="15" top="33" icon="logos:jquery" />
+              <Skill title="Jquery" percent="100" size="15" top="33" icon="logos:jquery" />
             </div>
           </div>
 
@@ -64,7 +66,7 @@
             <h2>Back-End</h2>
             <div class="body">
               <Skill title="Node.js" percent="95" size="35" icon="logos:nodejs" />
-              <Skill title="Java" percent="60" icon="logos:java" />
+              <Skill title="Java" percent="75" icon="logos:java" />
               <Skill title="C#" percent="80" icon="logos:c-sharp" />
               <Skill title="Php" percent="55" size="34" top="25" icon="logos:php" />
             </div>
@@ -79,13 +81,14 @@
             </div>
           </div>
 
-          <div class="fieldset" v-animate.repeat.fade="'slide-right'">
+          <div class="fieldset" v-animate.repeat.fade="'slide-right'" style="max-width: 692px">
             <h2>Outras</h2>
             <div class="body">
-              <Skill title="Docker" percent="75" size="15" top="33" icon="logos:docker" />
-              <Skill title="AWS" percent="60" size="30" top="30" icon="logos:aws" />
-              <Skill title="Digital Ocean" percent="90" top="18" icon="logos:digital-ocean" />
+              <Skill title="Git" percent="100" size="20" top="33" icon="logos:git" />
+              <Skill title="Docker" percent="80" size="15" top="33" icon="logos:docker" />
               <Skill title="Firebase" percent="85" icon="logos:firebase" />
+              <Skill title="Digital Ocean" percent="90" top="18" icon="logos:digital-ocean" />
+              <Skill title="AWS" percent="60" size="30" top="30" icon="logos:aws" />
             </div>
           </div>
         </div>
@@ -195,7 +198,21 @@ export default {
 
 .areas {
   margin-bottom: 70px;
-
+  scrollbar-color:  hsla(220, 51%, 19%, 0.349) hsla(220, 51%, 19%, 0.301); //firefox
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 50%;
+    background: #182848;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background: #27458d;
+    &:hover {
+      background: #4b6cb7;
+    }
+  }
   .row {
     justify-content: center;
 
@@ -203,6 +220,7 @@ export default {
       position: relative;
       margin: 10px;
       padding-top: 26px;
+      max-width: 100%;
 
       @media (max-width: 1361px) {
         width: 100%;
@@ -223,22 +241,6 @@ export default {
         left: 22px;
         padding: 0 10px;
         border-bottom: 2px solid;
-      }
-
-      ::-webkit-scrollbar {
-        height: 5px;
-      }
-
-      ::-webkit-scrollbar-track {
-        background: #182848;
-      }
-
-      ::-webkit-scrollbar-thumb {
-        background: #27458d;
-      }
-
-      ::-webkit-scrollbar-thumb:hover {
-        background: #4b6cb7;
       }
 
       @media (max-width: 525px) {

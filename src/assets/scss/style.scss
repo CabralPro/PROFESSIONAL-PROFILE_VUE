@@ -1,6 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400&display=swap");
 @import "./animate";
+
+:root {
+    //firefox
+    scrollbar-color: hsl(220, 50%, 19%) hsl(220, 52%, 25%);
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #182848;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #27458d;
+
+    &:hover {
+        background: #4b6cb7;
+    }
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -49,11 +69,11 @@ ul {
     transition: 0.5s;
     width: fit-content;
     cursor: pointer;
-}
 
-.btn:hover {
-    background: #7510f7;
-    color: white;
+    &:hover {
+        background: #7510f7;
+        color: white;
+    }
 }
 
 .row {

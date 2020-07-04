@@ -1,12 +1,12 @@
 <template>
   <header class="col">
-    <canvas id="nokey"> </canvas>
+    <canvas id="nokey"></canvas>
 
     <nav class="row" v-animate.repeat.fade="'slide-right'">
-      <a href="#intro"> Introdução</a>
-      <a href="#conhecimento"> Conhecimento</a>
-      <a href="#portifolio"> Portifólio</a>
-      <a href="#contratar"> Contratar</a>
+      <a href="#intro">Introdução</a>
+      <a href="#conhecimento">Conhecimento</a>
+      <a href="#portifolio">Portifólio</a>
+      <a href="#contratar">Contratar</a>
     </nav>
 
     <img
@@ -15,7 +15,7 @@
       width="300"
       height="300"
       src="@/assets/img/profile.png"
-      alt=""
+      alt
     />
     <h1>Arthur Cabral</h1>
     <h2>Desenvolvedor Web e Mobile</h2>
@@ -138,15 +138,13 @@ header {
     a {
       text-align: center;
       padding: 10px 20px;
-    }
-
-    a:not(:last-child) {
-      border-right: 1px solid #e8eaf636;
-    }
-
-    a:hover {
-      transform: scale(1.01);
-      color: white;
+      &:not(:last-child) {
+        border-right: 1px solid #e8eaf636;
+      }
+      &:hover {
+        transform: scale(1.01);
+        color: white;
+      }
     }
   }
 

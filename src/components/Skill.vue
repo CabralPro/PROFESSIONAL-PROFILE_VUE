@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="skill col"
-    @mouseenter="percentBar = percent"
-    @mouseleave="percentBar = 0"
-  >
+  <div class="skill col" @mouseenter="percentBar = percent" @mouseleave="percentBar = 0">
     <h3 class="titlee" v-html="title"></h3>
     <div class="bar">
       <div class="filledbar" :style="`width: ${percentBar}%`"></div>
@@ -32,12 +28,7 @@
       ></span>
 
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <circle
-          :style="`stroke-dashoffset: ${percentCircle}`"
-          cx="60"
-          cy="60"
-          r="50"
-        />
+        <circle :style="`stroke-dashoffset: ${percentCircle}`" cx="60" cy="60" r="50" />
       </svg>
     </div>
   </div>
@@ -125,27 +116,31 @@ export default {
       left: -9%;
     }
   }
-}
-
-.skill:not(:first-child) {
-  margin-left: -50px;
-}
-
-.skill:hover {
-  transform: translateY(-20px);
-  transition: 0.4s ease-out;
-
-  .filledbar {
-    transition: 0.4s ease-out;
+  &:not(:first-child) {
+    margin-left: -50px;
   }
 
-  ~ .skill {
-    left: 50px;
+  &:hover {
+    transform: translateY(-20px);
     transition: 0.4s ease-out;
-  }
 
-  circle {
-    transition: 0.6s ease-out;
+    .filledbar {
+      transition: 0.4s ease-out;
+    }
+
+    ~ .skill {
+      left: 50px;
+      transition: 0.4s ease-out;
+    }
+
+    circle {
+      transition: 0.6s ease-out;
+    }
+  }
+  &:last-child::after {
+    content: ".";
+    color: transparent;
+    width: 30px;
   }
 }
 </style>
