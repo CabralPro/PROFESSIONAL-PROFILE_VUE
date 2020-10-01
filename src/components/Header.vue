@@ -18,7 +18,7 @@
       alt
     />
     <h1>Arthur Cabral</h1>
-    <h2>Desenvolvedor Web e Mobile</h2>
+    <h2>Desenvolvedor .Net e Web</h2>
 
     <div class="info">
       <BoxInfo

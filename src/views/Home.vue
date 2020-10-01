@@ -35,8 +35,8 @@
 
           <Fieldset title="Web">
             <Skill title="Vue" percent="100" size="35" top="27" icon="logos:vue" />
-            <Skill title="Vuetify" percent="100" size="42" top="25" icon="logos:vuetifyjs" />
             <Skill title="Angular" percent="90" size="42" top="25" icon="logos:angular-icon" />
+            <Skill title="Vuetify" percent="100" size="42" top="25" icon="logos:vuetifyjs" />
             <Skill title="Javascript" percent="90" icon="logos:javascript" />
             <Skill title="Css" percent="100" size="53" top="18" icon="logos:css-3" />
             <Skill title="Sass" percent="100" icon="logos:sass" />
@@ -47,16 +47,16 @@
           </Fieldset>
 
           <Fieldset title="Mobile" v-animate.repeat.fade="'slide-left'">
-            <Skill title="Dart" percent="85" icon="logos:dart" />
-            <Skill title="Flutter" percent="85" icon="logos:flutter" />
+            <Skill title="Dart" percent="90" icon="logos:dart" />
+            <Skill title="Flutter" percent="90" icon="logos:flutter" />
             <Skill title="Android Nativo" percent="75" size="13" top="33" icon="logos:android" />
           </Fieldset>
 
           <Fieldset title="Back-End" v-animate.repeat.fade="'slide-right'">
+            <Skill title=".Net" percent="90" size="34" top="25" icon="logos:dotnet" />
+            <Skill title="C#" percent="95" icon="logos:c-sharp" />
             <Skill title="Node.js" percent="95" size="35" icon="logos:nodejs" />
-            <Skill title="Java" percent="50" icon="logos:java" />
-            <Skill title="C#" percent="80" icon="logos:c-sharp" />
-            <Skill title="Php" percent="55" size="34" top="25" icon="logos:php" />
+            <Skill title="Java" percent="70" icon="logos:java" />
           </Fieldset>
 
           <Fieldset title="Banco de Dados" v-animate.repeat.fade="'slide-left'">
