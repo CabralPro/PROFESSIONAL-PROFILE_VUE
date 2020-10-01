@@ -18,93 +18,70 @@
         <Card1
           title="Busco oferecer o meu melhor, visando sempre a execução das melhores práticas!"
           text="Um produto precisa ser inovador o suficiente para se diferenciar do resto, mas 
-        não tão inovador que o usuário não entenda! Por isso faço o possível para entregar um 
-        excelente produto em termos de qualidade de código, manutenibilidade e UE, pois isso 
-        pode evitar muitas dores de cabeça no futuro."
+            não tão inovador que o usuário não entenda! Por isso faço o possível para entregar um 
+            excelente produto em termos de qualidade de código, manutenibilidade e UE, pois isso 
+            pode evitar muitas dores de cabeça no futuro."
           img="programer2.png"
           reverse="true"
         />
       </div>
 
       <div id="conhecimento"></div>
+      
       <div class="areas" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Áreas de Conhecimento</h1>
 
         <div class="row">
-          <div class="fieldset">
-            <h2>Web</h2>
-            <div class="body">
-              <Skill title="Vue" percent="100" size="35" top="27" icon="logos:vue" />
-              <Skill title="Vuetify" percent="100" size="42" top="25" icon="logos:vuetifyjs" />
-              <Skill title="Angular" percent="90" size="42" top="25" icon="logos:angular-icon" />
-              <Skill title="Javascript" percent="90" icon="logos:javascript" />
-              <Skill title="Css" percent="100" size="53" top="18" icon="logos:css-3" />
-              <Skill title="Sass" percent="100" icon="logos:sass" />
-              <Skill
-                title="Materialize"
-                percent="100"
-                top="27"
-                size="30"
-                icon="logos:materializecss"
-              />
-              <Skill title="Bootstrap" percent="100" icon="logos:bootstrap" />
-              <Skill title="BootstrapVue" percent="100" image="bv.svg" left="32" />
-              <Skill title="Jquery" percent="100" size="15" top="33" icon="logos:jquery" />
-            </div>
-          </div>
 
-          <div class="fieldset" v-animate.repeat.fade="'slide-left'">
-            <h2>Mobile</h2>
-            <div class="body">
-              <Skill title="Dart" percent="85" icon="logos:dart" />
-              <Skill title="Flutter" percent="85" icon="logos:flutter" />
-              <Skill title="Android Nativo" percent="75" size="13" top="33" icon="logos:android" />
-            </div>
-          </div>
+          <Fieldset title="Web">
+            <Skill title="Vue" percent="100" size="35" top="27" icon="logos:vue" />
+            <Skill title="Vuetify" percent="100" size="42" top="25" icon="logos:vuetifyjs" />
+            <Skill title="Angular" percent="90" size="42" top="25" icon="logos:angular-icon" />
+            <Skill title="Javascript" percent="90" icon="logos:javascript" />
+            <Skill title="Css" percent="100" size="53" top="18" icon="logos:css-3" />
+            <Skill title="Sass" percent="100" icon="logos:sass" />
+            <Skill title="Materialize" percent="100" top="27" size="30" icon="logos:materializecss"/>
+            <Skill title="Bootstrap" percent="100" icon="logos:bootstrap" />
+            <Skill title="BootstrapVue" percent="100" image="bv.svg" left="32" />
+            <Skill title="Jquery" percent="100" size="15" top="33" icon="logos:jquery" />
+          </Fieldset>
 
-          <div class="fieldset" v-animate.repeat.fade="'slide-right'">
-            <h2>Back-End</h2>
-            <div class="body">
-              <Skill title="Node.js" percent="95" size="35" icon="logos:nodejs" />
-              <Skill title="Java" percent="75" icon="logos:java" />
-              <Skill title="C#" percent="80" icon="logos:c-sharp" />
-              <Skill title="Php" percent="55" size="34" top="25" icon="logos:php" />
-            </div>
-          </div>
+          <Fieldset title="Mobile" v-animate.repeat.fade="'slide-left'">
+            <Skill title="Dart" percent="85" icon="logos:dart" />
+            <Skill title="Flutter" percent="85" icon="logos:flutter" />
+            <Skill title="Android Nativo" percent="75" size="13" top="33" icon="logos:android" />
+          </Fieldset>
 
-          <div class="fieldset" v-animate.repeat.fade="'slide-left'">
-            <h2>Banco de Dados</h2>
-            <div class="body">
-              <Skill title="MySql" percent="90" color="white" icon="simple-icons:mysql" />
-              <Skill title="Firebird" percent="90" left="30" image="firebird.png" />
-              <Skill title="Postregres" percent="90" icon="logos:postgresql" />
-            </div>
-          </div>
+          <Fieldset title="Back-End" v-animate.repeat.fade="'slide-right'">
+            <Skill title="Node.js" percent="95" size="35" icon="logos:nodejs" />
+            <Skill title="Java" percent="50" icon="logos:java" />
+            <Skill title="C#" percent="80" icon="logos:c-sharp" />
+            <Skill title="Php" percent="55" size="34" top="25" icon="logos:php" />
+          </Fieldset>
 
-          <div class="fieldset" v-animate.repeat.fade="'slide-right'" style="max-width: 692px">
-            <h2>Outras</h2>
-            <div class="body">
-              <Skill title="Git" percent="100" size="20" top="33" icon="logos:git" />
-              <Skill title="Docker" percent="80" size="15" top="33" icon="logos:docker" />
-              <Skill title="Firebase" percent="85" icon="logos:firebase" />
-              <Skill title="Digital Ocean" percent="90" top="18" icon="logos:digital-ocean" />
-              <Skill title="AWS" percent="60" size="30" top="30" icon="logos:aws" />
-            </div>
-          </div>
+          <Fieldset title="Banco de Dados" v-animate.repeat.fade="'slide-left'">
+            <Skill title="MySql" percent="90" color="white" icon="simple-icons:mysql" />
+            <Skill title="Firebird" percent="90" left="30" image="firebird.png" />
+            <Skill title="Postregres" percent="90" icon="logos:postgresql" />
+          </Fieldset>
+
+          <Fieldset title="Outras" v-animate.repeat.fade="'slide-right'" style="max-width: 652px">
+            <Skill title="Git" percent="100" size="20" top="33" icon="logos:git" />
+            <Skill title="Docker" percent="80" size="15" top="33" icon="logos:docker" />
+            <Skill title="Firebase" percent="85" icon="logos:firebase" />
+            <Skill title="Digital Ocean" percent="90" top="18" icon="logos:digital-ocean" />
+            <Skill title="AWS" percent="60" size="30" top="30" icon="logos:aws" />
+          </Fieldset>
+
+          <!-- <Fieldset title="Sistemas Operacionais" v-animate.repeat.fade="'slide-right'" style="max-width: 652px">
+            <Skill title="Linux" percent="90" icon="logos:linux-tux" />
+            <Skill title="Windows" percent="100" icon="logos:microsoft-windows" />
+          </Fieldset> -->
         </div>
-
-        <!-- <fieldset>
-            <legend>
-              <h2>Sistemas Operacionais</h2>
-            </legend>
-            <div class="row">
-              <Skill title="Linux" percent="90" icon="logos:linux-tux" />
-              <Skill title="Windows" percent="100" icon="logos:microsoft-windows" />
-            </div>
-        </fieldset>-->
       </div>
 
-      <div id="portifolio"></div>
+      <div id="portifolio"/>
+
       <div class="portifolio row" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Portifólio</h1>
 
@@ -136,7 +113,11 @@
         />
       </div>
 
-      <div class="contato col" id="contratar" v-animate.repeat.fade="'slide-up'">
+      <div
+        class="contato col"
+        id="contratar"
+        v-animate.repeat.fade="'slide-up'"
+      >
         <h1>Estou animado para entender o seu projeto. Pronto para começar?</h1>
         <a class="btn" href="mailto:cabraltec02@gmail.com">
           <span class="iconify" data-icon="dashicons:email-alt2"></span> Enviar
@@ -155,6 +136,7 @@ import Footer from "@/components/Footer";
 import Card1 from "@/components/Card1";
 import Work from "@/components/Work";
 import Skill from "@/components/Skill";
+import Fieldset from "@/components/Fieldset";
 export default {
   name: "Home",
   components: {
@@ -162,131 +144,10 @@ export default {
     Footer,
     Card1,
     Work,
-    Skill
-  }
+    Skill,
+    Fieldset,
+  },
 };
 </script>
 
-<style lang="scss">
-@media (min-width: 1291px) {
-  .home > * {
-    max-width: 1290px;
-    margin: auto;
-  }
-}
-.content {
-  padding: 30px 30px 0px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  @media (max-width: 900px) {
-    padding: 15px 15px 0px;
-  }
-}
-
-.portifolio {
-  justify-content: space-around;
-}
-
-.title {
-  text-align: center;
-  font-size: 28pt;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.areas {
-  margin-bottom: 70px;
-  scrollbar-color:  hsla(220, 51%, 19%, 0.349) hsla(220, 51%, 19%, 0.301); //firefox
-  ::-webkit-scrollbar {
-    height: 5px;
-  }
-  ::-webkit-scrollbar-track {
-    border-radius: 50%;
-    background: #182848;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-radius: 50%;
-    background: #27458d;
-    &:hover {
-      background: #4b6cb7;
-    }
-  }
-  .row {
-    justify-content: center;
-
-    .fieldset {
-      position: relative;
-      margin: 10px;
-      padding-top: 26px;
-      max-width: 100%;
-
-      @media (max-width: 1361px) {
-        width: 100%;
-      }
-
-      .body {
-        border: 1px solid #e8eaf636;
-        border-radius: 10px;
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        padding: 30px 60px 20px 20px;
-      }
-
-      h2 {
-        position: absolute;
-        top: -13px;
-        left: 22px;
-        padding: 0 10px;
-        border-bottom: 2px solid;
-      }
-
-      @media (max-width: 525px) {
-        h2 {
-          font-size: 15pt;
-          top: -8px;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 525px) {
-  .areas,
-  .portifolio {
-    h1 {
-      font-size: 22pt;
-    }
-  }
-}
-
-.contato {
-  padding: 30px 50px;
-  border-radius: 15px;
-  background: linear-gradient(190deg, #18284870 0%, #182848 100%);
-  max-width: 530px;
-  margin: 100px auto -105px;
-  box-shadow: -1rem 0 3rem rgba(37, 37, 37, 0.6);
-
-  .btn {
-    margin: auto;
-    margin-top: 20px;
-  }
-
-  @media (max-width: 700px) {
-    padding: 20px;
-    max-width: 300px;
-
-    h1 {
-      font-size: 16pt;
-    }
-
-    .btn {
-      font-size: 10pt;
-      margin-top: 10px;
-    }
-  }
-}
-</style>
+<style lang="scss" src="./Home.scss" />

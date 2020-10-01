@@ -1,0 +1,51 @@
+<template>
+  <div class="fieldset">
+    <h2>{{ title }}</h2>
+    <div class="body">
+      <slot />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["title"],
+};
+</script>
+
+<style lang="scss">
+.fieldset {
+  position: relative;
+  margin: 10px;
+  padding-top: 26px;
+  max-width: 99%;
+
+  @media (max-width: 1317px) {
+    width: 100%;
+  }
+
+  .body {
+    border: 1px solid #e8eaf636;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 30px 60px 20px 20px;
+  }
+
+  h2 {
+    position: absolute;
+    top: -13px;
+    left: 22px;
+    padding: 0 10px;
+    border-bottom: 2px solid;
+  }
+
+  @media (max-width: 525px) {
+    h2 {
+      font-size: 15pt;
+      top: -8px;
+    }
+  }
+}
+</style>

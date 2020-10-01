@@ -57,8 +57,8 @@ export default {
 <style lang="scss">
 .skill {
   height: 250px;
-  width: 150px;
-  min-width: 150px;
+  min-width: 140px;
+  max-width: 140px;
   background: linear-gradient(285deg, #4b6cb7 0%, #182848 100%);
   border-radius: 10px;
   box-shadow: -1rem 0 3rem rgba(37, 37, 37, 0.5);

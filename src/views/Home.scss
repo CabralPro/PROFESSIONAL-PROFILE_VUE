@@ -1,0 +1,86 @@
+@media (min-width: 1291px) {
+  .home > * {
+    max-width: 1290px;
+    margin: auto;
+  }
+}
+.content {
+  padding: 30px 30px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @media (max-width: 900px) {
+    padding: 15px 15px 0px;
+  }
+}
+
+.portifolio {
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  font-size: 28pt;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.areas {
+  margin-bottom: 70px;
+  scrollbar-color:  hsla(220, 51%, 19%, 0.349) hsla(220, 51%, 19%, 0.301); //firefox
+  ::-webkit-scrollbar {
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 50%;
+    background: #182848;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background: #27458d;
+    &:hover {
+      background: #4b6cb7;
+    }
+  }
+  .row {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 525px) {
+  .areas,
+  .portifolio {
+    h1 {
+      font-size: 22pt;
+    }
+  }
+}
+
+.contato {
+  padding: 30px 50px;
+  border-radius: 15px;
+  background: linear-gradient(190deg, #18284870 0%, #182848 100%);
+  max-width: 530px;
+  margin: 100px auto -105px;
+  box-shadow: -1rem 0 3rem rgba(37, 37, 37, 0.6);
+
+  .btn {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 700px) {
+    padding: 20px;
+    max-width: 300px;
+
+    h1 {
+      font-size: 16pt;
+    }
+
+    .btn {
+      font-size: 10pt;
+      margin-top: 10px;
+    }
+  }
+}
