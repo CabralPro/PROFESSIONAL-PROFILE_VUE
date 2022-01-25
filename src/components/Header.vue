@@ -17,29 +17,19 @@
       src="@/assets/img/profile.png"
       alt
     />
-    <h1>Arthur Cabral</h1>
-    <h2>Desenvolvedor .Net e Web</h2>
+    <h1>Arthur Cabral Lemos</h1>
+    <h2>Fullstack Developer</h2>
 
     <div class="info">
-      <BoxInfo
-        icon="ant-design:github-filled"
-        text="/CabralPro"
-        link="https://github.com/CabralPro"
-      />
-      <BoxInfo
-        icon="el:map-marker"
-        text="Igarapé - MG"
-        link="https://www.google.com/maps/place/Igarap%C3%A9+-+MG/data=!4m2!3m1!1s0xa6d122a6a39221:0x1c72357de5d801e6?sa=X&ved=2ahUKEwj78KCwgrzoAhW4JrkGHeo1DF4Q8gEwHHoECBYQBA"
-      />
-      <BoxInfo
-        icon="bx:bxl-whatsapp"
-        text="(31) 9 9876-2713"
-        link="https://api.whatsapp.com/send?phone=5531998762713&text=Obrigado%20por%20reservar%20um%20tempo%20para%20entrar%20em%20contato.%20Como%20posso%20te%20ajudar%3F"
-      />
       <BoxInfo
         icon="foundation:social-linkedin"
         text="/arthurcabrallemos"
         link="https://www.linkedin.com/in/arthurcabrallemos/"
+      />
+      <BoxInfo
+        icon="ant-design:github-filled"
+        text="/CabralPro"
+        link="https://github.com/CabralPro"
       />
       <BoxInfo
         icon="dashicons:email-alt2"
@@ -47,6 +37,16 @@
         currentTab="true"
         link="mailto:cabraltec02@gmail.com"
       />
+      <BoxInfo
+        icon="el:map-marker"
+        text="Igarapé - MG"
+        link="https://www.google.com/maps/place/Igarap%C3%A9+-+MG/data=!4m2!3m1!1s0xa6d122a6a39221:0x1c72357de5d801e6?sa=X&ved=2ahUKEwj78KCwgrzoAhW4JrkGHeo1DF4Q8gEwHHoECBYQBA"
+      />
+      <!-- <BoxInfo
+        icon="bx:bxl-whatsapp"
+        text="(31) 9 9876-2713"
+        link="https://api.whatsapp.com/send?phone=5531998762713&text=Obrigado%20por%20reservar%20um%20tempo%20para%20entrar%20em%20contato.%20Como%20posso%20te%20ajudar%3F"
+      /> -->
     </div>
   </header>
 </template>
@@ -94,7 +94,7 @@ header {
   }
 
   h1 {
-    font-size: 45pt;
+    font-size: 40pt;
     margin: 0;
   }
 
