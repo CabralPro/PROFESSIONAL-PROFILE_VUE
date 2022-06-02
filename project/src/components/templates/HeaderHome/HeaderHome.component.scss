@@ -1,0 +1,105 @@
+.header-home {
+	header {
+		color: #e8eaf6;
+		font-family: "Cinzel", serif;
+		position: relative;
+		padding: 0 30px;
+		text-align: center;
+
+		* {
+			z-index: 1;
+		}
+
+		h1:hover,
+		h2:hover {
+			color: rgb(255, 255, 255);
+		}
+
+		canvas {
+			width: 98vw;
+			position: absolute;
+			z-index: 0;
+		}
+
+		h1 {
+			font-size: 40pt;
+			margin: 0;
+		}
+
+		h2 {
+			font-size: 20pt;
+			margin: 0;
+			font-weight: 100;
+		}
+
+		.perfil {
+			margin: 0px auto;
+			border-radius: 50%;
+			max-width: 100%;
+		}
+
+		.info {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			justify-content: space-around;
+			margin: 44px 0;
+
+			@media (max-width: 525px) {
+				flex-direction: column;
+			}
+		}
+
+		nav {
+			border: 1px solid #e8eaf636;
+			border-radius: 10px;
+			font-family: "Raleway", sans-serif;
+			font-weight: 400;
+			margin: 30px 0 30px auto;
+			background: #ffffff24;
+
+			@media (max-width: 1200px) {
+				margin: 40px auto;
+				margin-top: 30px;
+			}
+
+			a {
+				text-align: center;
+				padding: 10px 20px;
+				&:not(:last-child) {
+					border-right: 1px solid #e8eaf636;
+				}
+				&:hover {
+					transform: scale(1.01);
+					color: white;
+				}
+			}
+		}
+
+		@media (max-width: 570px) {
+			padding: 0 10px;
+
+			nav {
+				width: 280px;
+
+				a {
+					width: 100px;
+					border: none !important;
+				}
+			}
+
+			.perfil {
+				width: 270px;
+				height: 270px;
+			}
+
+			h1 {
+				font-size: 30pt;
+				margin: 20px 0 10px 0;
+			}
+			h2 {
+				font-size: 14pt;
+			}
+		}
+	}
+}
