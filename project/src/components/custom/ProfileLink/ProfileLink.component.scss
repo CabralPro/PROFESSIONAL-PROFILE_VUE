@@ -1,0 +1,22 @@
+.profile-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Raleway", sans-serif;
+	margin: 0 30px;
+	h5 {
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+	.iconify {
+		font-size: 28pt;
+		padding: 0 10px;
+	}
+	@media (max-width: 525px) {
+		justify-content: initial;
+		margin: 0 10px;
+	}
+	&:hover {
+		transform: scale(1.05);
+	}
+}
