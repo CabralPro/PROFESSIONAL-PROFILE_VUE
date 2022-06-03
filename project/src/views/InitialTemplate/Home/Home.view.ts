@@ -9,18 +9,20 @@ export default class HomeView extends Vue {
 
 	textCards: TextCard[] = [
 		{
-			title: `Olá, seja muito bem vindo! Neste site você conhecerá um pouco sobre	o meu trabalho!`,
-			text: `Sou desenvolvedor de sistemas web e mobile, tenho uma grande paixão por interfaces de usuário, 
-				animações e criação de	experiências intuitivas e dinâmicas para o usuário.Trabalho com front- end e 
-				back - end e estou sempre atualizado sobre novas	tecnologias.`,
+			title: `Hello, welcome! On this site you will know a little about my work!`,
+			text: `I'm a software developer, I have a great passion for user interfaces, 
+			animations and creating intuitive and dynamic user experiences. I work with 
+			front-end, back-end and mobile applications and I'm always up to date on new 
+			technologies.`,
 			img: `programer3.png`,
 			reverse: false
 		},
 		{
-			title: `Busco oferecer o meu melhor, visando sempre a execução das melhores práticas!`,
-			text: `Um produto precisa ser inovador o suficiente para se diferenciar do resto, mas não tão inovador 
-				que o usuário não entenda! Por isso faço o possível para entregar um excelente produto em termos de 
-				qualidade de código, manutenibilidade e UE, pois isso pode evitar muitas dores de cabeça no futuro.`,
+			title: `Excellence and execution of best practices is my goal!`,
+			text: `A product needs to be innovative enough to differentiate itself from 
+			the rest, but not so innovative that the user doesn't understand! That's why 
+			I always deliver an excellent product in terms of code quality, maintainability 
+			and UE ... it can save a lot of headaches in the future.`,
 			img: `programer2.png`,
 			reverse: true
 		}
@@ -76,32 +78,32 @@ export default class HomeView extends Vue {
 	projects: Project[] = [
 		{
 			title: "Vocabulando",
-			text: `Enriqueça seu vocabulário em varios idiomas utilizando legendas de séries e filmes,
-				letras musicais, textos e muito mais ...`,
+			text: `The Vocabulando platform helps you improve your vocabulary through movie subtitles, 
+			music and various texts in several languages`,
 			link: "https://vocabulando.com.br/",
 			img: "assets/img/vocabulando.png"
 		},
 		{
 			title: "LPSJ",
-			text: `Nesse aplicativo você tem acesso as principais informações do ministério LPSJ, 
-				como por exemplo a agenda das igrejas, datas e horários dos cultos oficiais, avisos 
-				da direção e muito mais ...`,
+			text: `In this application you have access to the main information of the LPSJ ministry, 
+			such as the church agenda, dates and times of official services, notices from the direction 
+			and much more`,
 			link: "https://play.google.com/store/apps/details?id=com.lpsj&hl=pt_BR",
 			img: "assets/img/lpsj.png"
 		},
 		{
 			title: "Cabral Drums",
-			text: `Bateria Eletrônica Caseira feita com Arduíno e Raspberry Pi. O projeto também
-				conta com um aplicativo que funciona como controle remoto via bluetooth. Tecnologias
-				envolvidas: Java e C++`,
+			text: `Cabral Drums is a homemade electronic drum project that aims at great sound quality 
+			and low investment. On this site you will find everything you need to develop your own 
+			project and enjoy Cabral Drums technology!`,
 			link: "https://cabraldrums.web.app/",
 			img: "assets/img/cabral-drums.png"
 		},
 		{
 			title: "Correspondente Oficial",
-			text: `Divulgação de trabalho advocatício. Advogados podem se cadastrar 
-				e oferecer seus serviços aos clientes.O site está integrado ao PagSeguro 
-				permitindo que esses advogados adquiram planos de divulgação.`,
+			text: `Corresponende Oficial is a platform focused on the dissemination of legal work. 
+			Lawyers can register and offer their services to clients. The site is integrated with 
+			PagSeguro, allowing these lawyers to acquire disclosure plans.`,
 			link: "https://www.correspondenteoficial.com.br",
 			img: "assets/img/co.png"
 		},

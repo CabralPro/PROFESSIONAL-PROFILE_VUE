@@ -6,9 +6,9 @@
 
       <div class="options">
 
-        <router-link :to="{ name: 'Home' }">
+        <a href="/">
           <img src="@/assets/img/logo-color.png" alt="cabral-tec" />
-        </router-link>
+        </a>
 
         <button
           class="btn-download"

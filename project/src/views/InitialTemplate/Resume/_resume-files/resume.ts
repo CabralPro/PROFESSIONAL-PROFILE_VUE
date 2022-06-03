@@ -1,6 +1,6 @@
 /*
  * Format HTML : https://www.freeformatter.com/html-formatter.html#ad-output
- * 
+ * Create and edit resume: https://www.kickresume.com/dashboard/resumes/
  */
 
 const styleToPrint = `
@@ -49,6 +49,9 @@ const resumeHtmlstyle = `
 		} 
 		.icon:before{
 			background-color: transparent !important;
+		}
+		.headline {
+    	padding-left: 159px !important;
 		}
 	</style>
 </html>
@@ -130,24 +133,38 @@ const originalHtml = `
                               <div class="text-area rich-text-area">
                                  <div part="0">
                                     <ul part="0">
-                                       <li class="description " part="0"><span>Resumed </span><span>value:</span></li>
-                                       <li class="description " part="0"><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></li>
-                                       <li class="description " part="0"><span>Front-end:</span></li>
-                                       <li class="description " part="0"><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></li>
-                                       <li class="description " part="0"><span>Back-end:</span></li>
-                                       <li class="description " part="0"><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR;</span></li>
-                                       <li class="description " part="0"><span>Node, </span><span>Express</span></li>
-                                       <li class="description " part="0"><span>Mobile:	</span></li>
-                                       <li class="description " part="0"><span>Flutter</span></li>
-                                       <li class="description " part="0"><span>Programming </span><span>languages:</span></li>
-                                       <li class="description " part="0"><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></li>
-                                       <li class="description " part="0"><span>Database:</span></li>
-                                       <li class="description " part="0"><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></li>
-                                       <li class="description " part="0"><span>Agile </span><span>methodologies:</span></li>
-                                       <li class="description " part="0"><span>Scrum </span><span>and </span><span>Kanban</span></li>
-                                       <li class="description " part="0"><span>Devops </span><span>and </span><span>others:</span></li>
-                                       <li class="description " part="0"><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></li>
+                                       <li class="description " part="0"><span>Resumed </span><span>value: </span></li>
                                     </ul>
+                                    <div class="description " part="0"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Front-end: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Back-end: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
+                                    <div class="description " part="0"><span>- </span><span>Node, </span><span>Express</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Mobile:	</span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>Flutter</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Programming </span><span>languages: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Database: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Agile </span><span>methodologies: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                                    <ul part="0">
+                                       <li class="description " part="0"><span>Devops </span><span>and </span><span>others: </span></li>
+                                    </ul>
+                                    <div class="description " part="0"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                                  </div>
                                  <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
                                  <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
@@ -602,7 +619,7 @@ const originalHtml = `
                                     <div class="experience-description">
                                        <div class="publication-name">Building Android and iOS Apps with Flutter</div>
                                        <div class="publisher">Udemy</div>
-                                       <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000</a></div>
+                                       <div class="url"><a href="https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true" target="_blank" rel="noopener noreferrer nofollow ugc">https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true</a></div>
                                        <div>
                                           <div class="description "></div>
                                        </div>
@@ -620,7 +637,7 @@ const originalHtml = `
                                     <div class="experience-description">
                                        <div class="publication-name">Modern Web Course with JavaScript 2020 FULL</div>
                                        <div class="publisher">Udemy</div>
-                                       <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16</a></div>
+                                       <div class="url"><a href="https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg" target="_blank" rel="noopener noreferrer nofollow ugc">https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg</a></div>
                                        <div>
                                           <div class="description "></div>
                                        </div>
@@ -1006,45 +1023,66 @@ const originalHtml = `
                            </div>
                         </h6>
                         <div class="text-area rich-text-area">
-                           <div refb="f6e85f91-e2d8-11ec-83a3-5138ecd49379"></div>
-                           <div refb="f6e85f91-e2d8-11ec-83a3-5138ecd49379">
-                              <ul refb="f6e85f92-e2d8-11ec-83a3-5138ecd49379"></ul>
-                              <ul refb="f6e85f92-e2d8-11ec-83a3-5138ecd49379">
-                                 <li class="description " refb="f6e85f93-e2d8-11ec-83a3-5138ecd49379"><span>Resumed </span><span>value:</span></li>
-                                 <li class="description " refb="f6e85f93-e2d8-11ec-83a3-5138ecd49379"><span>Resumed </span><span>value:</span></li>
-                                 <li class="description " refb="f6e85f94-e2d8-11ec-83a3-5138ecd49379"><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></li>
-                                 <li class="description " refb="f6e85f94-e2d8-11ec-83a3-5138ecd49379"><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></li>
-                                 <li class="description " refb="f6e85f95-e2d8-11ec-83a3-5138ecd49379"><span>Front-end:</span></li>
-                                 <li class="description " refb="f6e85f95-e2d8-11ec-83a3-5138ecd49379"><span>Front-end:</span></li>
-                                 <li class="description " refb="f6e85f96-e2d8-11ec-83a3-5138ecd49379"><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></li>
-                                 <li class="description " refb="f6e85f96-e2d8-11ec-83a3-5138ecd49379"><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></li>
-                                 <li class="description " refb="f6e85f97-e2d8-11ec-83a3-5138ecd49379"><span>Back-end:</span></li>
-                                 <li class="description " refb="f6e85f97-e2d8-11ec-83a3-5138ecd49379"><span>Back-end:</span></li>
-                                 <li class="description " refb="f6e85f98-e2d8-11ec-83a3-5138ecd49379"><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR;</span></li>
-                                 <li class="description " refb="f6e85f98-e2d8-11ec-83a3-5138ecd49379"><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR;</span></li>
-                                 <li class="description " refb="f6e85f99-e2d8-11ec-83a3-5138ecd49379"><span>Node, </span><span>Express</span></li>
-                                 <li class="description " refb="f6e85f99-e2d8-11ec-83a3-5138ecd49379"><span>Node, </span><span>Express</span></li>
-                                 <li class="description " refb="f6e85f9a-e2d8-11ec-83a3-5138ecd49379"><span>Mobile:	</span></li>
-                                 <li class="description " refb="f6e85f9a-e2d8-11ec-83a3-5138ecd49379"><span>Mobile:	</span></li>
-                                 <li class="description " refb="f6e85f9b-e2d8-11ec-83a3-5138ecd49379"><span>Flutter</span></li>
-                                 <li class="description " refb="f6e85f9b-e2d8-11ec-83a3-5138ecd49379"><span>Flutter</span></li>
-                                 <li class="description " refb="f6e85f9c-e2d8-11ec-83a3-5138ecd49379"><span>Programming </span><span>languages:</span></li>
-                                 <li class="description " refb="f6e85f9c-e2d8-11ec-83a3-5138ecd49379"><span>Programming </span><span>languages:</span></li>
-                                 <li class="description " refb="f6e85f9d-e2d8-11ec-83a3-5138ecd49379"><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></li>
-                                 <li class="description " refb="f6e85f9d-e2d8-11ec-83a3-5138ecd49379"><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></li>
-                                 <li class="description " refb="f6e85f9e-e2d8-11ec-83a3-5138ecd49379"><span>Database:</span></li>
-                                 <li class="description " refb="f6e85f9e-e2d8-11ec-83a3-5138ecd49379"><span>Database:</span></li>
-                                 <li class="description " refb="f6e85f9f-e2d8-11ec-83a3-5138ecd49379"><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></li>
-                                 <li class="description " refb="f6e85f9f-e2d8-11ec-83a3-5138ecd49379"><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></li>
-                                 <li class="description " refb="f6e85fa0-e2d8-11ec-83a3-5138ecd49379"><span>Agile </span><span>methodologies:</span></li>
-                                 <li class="description " refb="f6e85fa0-e2d8-11ec-83a3-5138ecd49379"><span>Agile </span><span>methodologies:</span></li>
-                                 <li class="description " refb="f6e85fa1-e2d8-11ec-83a3-5138ecd49379"><span>Scrum </span><span>and </span><span>Kanban</span></li>
-                                 <li class="description " refb="f6e85fa1-e2d8-11ec-83a3-5138ecd49379"><span>Scrum </span><span>and </span><span>Kanban</span></li>
-                                 <li class="description " refb="f6e85fa2-e2d8-11ec-83a3-5138ecd49379"><span>Devops </span><span>and </span><span>others:</span></li>
-                                 <li class="description " refb="f6e85fa2-e2d8-11ec-83a3-5138ecd49379"><span>Devops </span><span>and </span><span>others:</span></li>
-                                 <li class="description " refb="f6e85fa3-e2d8-11ec-83a3-5138ecd49379"><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></li>
-                                 <li class="description " refb="f6e85fa3-e2d8-11ec-83a3-5138ecd49379"><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></li>
+                           <div refb="6a824733-e37e-11ec-b6ed-e973570a6ff5"></div>
+                           <div refb="6a824733-e37e-11ec-b6ed-e973570a6ff5">
+                              <ul refb="6a824734-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a824734-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a824735-e37e-11ec-b6ed-e973570a6ff5"><span>Resumed </span><span>value: </span></li>
+                                 <li class="description " refb="6a824735-e37e-11ec-b6ed-e973570a6ff5"><span>Resumed </span><span>value: </span></li>
                               </ul>
+                              <div class="description " refb="6a824736-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <div class="description " refb="6a824736-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <ul refb="6a824737-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a824737-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a824738-e37e-11ec-b6ed-e973570a6ff5"><span>Front-end: </span></li>
+                                 <li class="description " refb="6a824738-e37e-11ec-b6ed-e973570a6ff5"><span>Front-end: </span></li>
+                              </ul>
+                              <div class="description " refb="6a824739-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <div class="description " refb="6a824739-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <ul refb="6a82473a-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a82473a-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a82473b-e37e-11ec-b6ed-e973570a6ff5"><span>Back-end: </span></li>
+                                 <li class="description " refb="6a82473b-e37e-11ec-b6ed-e973570a6ff5"><span>Back-end: </span></li>
+                              </ul>
+                              <div class="description " refb="6a82473c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
+                              <div class="description " refb="6a82473c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
+                              <div class="description " refb="6a82473d-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Node, </span><span>Express</span></div>
+                              <div class="description " refb="6a82473d-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Node, </span><span>Express</span></div>
+                              <ul refb="6a82473e-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a82473e-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a82473f-e37e-11ec-b6ed-e973570a6ff5"><span>Mobile:	</span></li>
+                                 <li class="description " refb="6a82473f-e37e-11ec-b6ed-e973570a6ff5"><span>Mobile:	</span></li>
+                              </ul>
+                              <div class="description " refb="6a824740-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Flutter</span></div>
+                              <div class="description " refb="6a824740-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Flutter</span></div>
+                              <ul refb="6a824741-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a824741-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a824742-e37e-11ec-b6ed-e973570a6ff5"><span>Programming </span><span>languages: </span></li>
+                                 <li class="description " refb="6a824742-e37e-11ec-b6ed-e973570a6ff5"><span>Programming </span><span>languages: </span></li>
+                              </ul>
+                              <div class="description " refb="6a824743-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <div class="description " refb="6a824743-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <ul refb="6a824744-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a824744-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a824745-e37e-11ec-b6ed-e973570a6ff5"><span>Database: </span></li>
+                                 <li class="description " refb="6a824745-e37e-11ec-b6ed-e973570a6ff5"><span>Database: </span></li>
+                              </ul>
+                              <div class="description " refb="6a824746-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <div class="description " refb="6a824746-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <ul refb="6a824747-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a824747-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a824748-e37e-11ec-b6ed-e973570a6ff5"><span>Agile </span><span>methodologies: </span></li>
+                                 <li class="description " refb="6a824748-e37e-11ec-b6ed-e973570a6ff5"><span>Agile </span><span>methodologies: </span></li>
+                              </ul>
+                              <div class="description " refb="6a824749-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <div class="description " refb="6a824749-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <ul refb="6a82474a-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                              <ul refb="6a82474a-e37e-11ec-b6ed-e973570a6ff5">
+                                 <li class="description " refb="6a82474b-e37e-11ec-b6ed-e973570a6ff5"><span>Devops </span><span>and </span><span>others: </span></li>
+                                 <li class="description " refb="6a82474b-e37e-11ec-b6ed-e973570a6ff5"><span>Devops </span><span>and </span><span>others: </span></li>
+                              </ul>
+                              <div class="description " refb="6a82474c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                              <div class="description " refb="6a82474c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                            </div>
                            <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
                            <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
@@ -1099,18 +1137,18 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f6e85faa-e2d8-11ec-83a3-5138ecd49379"></div>
-                                 <div refb="f6e85faa-e2d8-11ec-83a3-5138ecd49379">
-                                    <ul refb="f6e85fab-e2d8-11ec-83a3-5138ecd49379"></ul>
-                                    <ul refb="f6e85fab-e2d8-11ec-83a3-5138ecd49379">
-                                       <li class="description " refb="f6e85fac-e2d8-11ec-83a3-5138ecd49379"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="f6e85fac-e2d8-11ec-83a3-5138ecd49379"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="f6e88690-e2d8-11ec-83a3-5138ecd49379"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="f6e88690-e2d8-11ec-83a3-5138ecd49379"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="f6e88691-e2d8-11ec-83a3-5138ecd49379"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="f6e88691-e2d8-11ec-83a3-5138ecd49379"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="f6e88692-e2d8-11ec-83a3-5138ecd49379"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
-                                       <li class="description " refb="f6e88692-e2d8-11ec-83a3-5138ecd49379"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                 <div refb="6a824753-e37e-11ec-b6ed-e973570a6ff5"></div>
+                                 <div refb="6a824753-e37e-11ec-b6ed-e973570a6ff5">
+                                    <ul refb="6a824754-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                                    <ul refb="6a824754-e37e-11ec-b6ed-e973570a6ff5">
+                                       <li class="description " refb="6a824755-e37e-11ec-b6ed-e973570a6ff5"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="6a824755-e37e-11ec-b6ed-e973570a6ff5"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="6a824756-e37e-11ec-b6ed-e973570a6ff5"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="6a824756-e37e-11ec-b6ed-e973570a6ff5"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="6a824757-e37e-11ec-b6ed-e973570a6ff5"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="6a824757-e37e-11ec-b6ed-e973570a6ff5"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="6a824758-e37e-11ec-b6ed-e973570a6ff5"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                       <li class="description " refb="6a824758-e37e-11ec-b6ed-e973570a6ff5"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1165,14 +1203,14 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f6e88698-e2d8-11ec-83a3-5138ecd49379"></div>
-                                 <div refb="f6e88698-e2d8-11ec-83a3-5138ecd49379">
-                                    <div class="description " refb="f6e88699-e2d8-11ec-83a3-5138ecd49379"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f6e88699-e2d8-11ec-83a3-5138ecd49379"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <ul refb="f6e8869a-e2d8-11ec-83a3-5138ecd49379"></ul>
-                                    <ul refb="f6e8869a-e2d8-11ec-83a3-5138ecd49379">
-                                       <li class="description " refb="f6e8869b-e2d8-11ec-83a3-5138ecd49379"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
-                                       <li class="description " refb="f6e8869b-e2d8-11ec-83a3-5138ecd49379"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                 <div refb="6a82475e-e37e-11ec-b6ed-e973570a6ff5"></div>
+                                 <div refb="6a82475e-e37e-11ec-b6ed-e973570a6ff5">
+                                    <div class="description " refb="6a82475f-e37e-11ec-b6ed-e973570a6ff5"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="6a82475f-e37e-11ec-b6ed-e973570a6ff5"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <ul refb="6a824760-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                                    <ul refb="6a824760-e37e-11ec-b6ed-e973570a6ff5">
+                                       <li class="description " refb="6a824761-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                       <li class="description " refb="6a824761-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1201,16 +1239,16 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f6e886a0-e2d8-11ec-83a3-5138ecd49379"></div>
-                                 <div refb="f6e886a0-e2d8-11ec-83a3-5138ecd49379">
-                                    <div class="description " refb="f6e886a1-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f6e886a1-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f6e886a2-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <div class="description " refb="f6e886a2-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <ul refb="f6e886a3-e2d8-11ec-83a3-5138ecd49379"></ul>
-                                    <ul refb="f6e886a3-e2d8-11ec-83a3-5138ecd49379">
-                                       <li class="description " refb="f6e886a4-e2d8-11ec-83a3-5138ecd49379"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
-                                       <li class="description " refb="f6e886a4-e2d8-11ec-83a3-5138ecd49379"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                 <div refb="6a824766-e37e-11ec-b6ed-e973570a6ff5"></div>
+                                 <div refb="6a824766-e37e-11ec-b6ed-e973570a6ff5">
+                                    <div class="description " refb="6a824767-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="6a824767-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="6a824768-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <div class="description " refb="6a824768-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <ul refb="6a824769-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                                    <ul refb="6a824769-e37e-11ec-b6ed-e973570a6ff5">
+                                       <li class="description " refb="6a82476a-e37e-11ec-b6ed-e973570a6ff5"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                       <li class="description " refb="6a82476a-e37e-11ec-b6ed-e973570a6ff5"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1239,16 +1277,16 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f6e886a9-e2d8-11ec-83a3-5138ecd49379"></div>
-                                 <div refb="f6e886a9-e2d8-11ec-83a3-5138ecd49379">
-                                    <div class="description " refb="f6e886aa-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="f6e886aa-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="f6e886ab-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <div class="description " refb="f6e886ab-e2d8-11ec-83a3-5138ecd49379"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <ul refb="f6e886ac-e2d8-11ec-83a3-5138ecd49379"></ul>
-                                    <ul refb="f6e886ac-e2d8-11ec-83a3-5138ecd49379">
-                                       <li class="description " refb="f6e886ad-e2d8-11ec-83a3-5138ecd49379"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
-                                       <li class="description " refb="f6e886ad-e2d8-11ec-83a3-5138ecd49379"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                 <div refb="6a82476f-e37e-11ec-b6ed-e973570a6ff5"></div>
+                                 <div refb="6a82476f-e37e-11ec-b6ed-e973570a6ff5">
+                                    <div class="description " refb="6a824770-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="6a824770-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="6a824771-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <div class="description " refb="6a824771-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <ul refb="6a824772-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                                    <ul refb="6a824772-e37e-11ec-b6ed-e973570a6ff5">
+                                       <li class="description " refb="6a824773-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                       <li class="description " refb="6a824773-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1277,18 +1315,18 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f6e886b2-e2d8-11ec-83a3-5138ecd49379"></div>
-                                 <div refb="f6e886b2-e2d8-11ec-83a3-5138ecd49379">
-                                    <ul refb="f6e886b3-e2d8-11ec-83a3-5138ecd49379"></ul>
-                                    <ul refb="f6e886b3-e2d8-11ec-83a3-5138ecd49379">
-                                       <li class="description " refb="f6e886b4-e2d8-11ec-83a3-5138ecd49379"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="f6e886b4-e2d8-11ec-83a3-5138ecd49379"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="f6e886b5-e2d8-11ec-83a3-5138ecd49379"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="f6e886b5-e2d8-11ec-83a3-5138ecd49379"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="f6e886b6-e2d8-11ec-83a3-5138ecd49379"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="f6e886b6-e2d8-11ec-83a3-5138ecd49379"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="f6e886b7-e2d8-11ec-83a3-5138ecd49379"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
-                                       <li class="description " refb="f6e886b7-e2d8-11ec-83a3-5138ecd49379"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                 <div refb="6a824778-e37e-11ec-b6ed-e973570a6ff5"></div>
+                                 <div refb="6a824778-e37e-11ec-b6ed-e973570a6ff5">
+                                    <ul refb="6a824779-e37e-11ec-b6ed-e973570a6ff5"></ul>
+                                    <ul refb="6a824779-e37e-11ec-b6ed-e973570a6ff5">
+                                       <li class="description " refb="6a82477a-e37e-11ec-b6ed-e973570a6ff5"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="6a82477a-e37e-11ec-b6ed-e973570a6ff5"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="6a82477b-e37e-11ec-b6ed-e973570a6ff5"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="6a82477b-e37e-11ec-b6ed-e973570a6ff5"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="6a82477c-e37e-11ec-b6ed-e973570a6ff5"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="6a82477c-e37e-11ec-b6ed-e973570a6ff5"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="6a82477d-e37e-11ec-b6ed-e973570a6ff5"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                       <li class="description " refb="6a82477d-e37e-11ec-b6ed-e973570a6ff5"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1747,7 +1785,7 @@ const originalHtml = `
                               <div class="experience-description">
                                  <div class="publication-name">Building Android and iOS Apps with Flutter</div>
                                  <div class="publisher">Udemy</div>
-                                 <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000</a></div>
+                                 <div class="url"><a href="https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true" target="_blank" rel="noopener noreferrer nofollow ugc">https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true</a></div>
                                  <div>
                                     <div class="description "></div>
                                  </div>
@@ -1755,7 +1793,7 @@ const originalHtml = `
                               <div class="experience-description">
                                  <div class="publication-name">Building Android and iOS Apps with Flutter</div>
                                  <div class="publisher">Udemy</div>
-                                 <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-49028274-9330-4c44-898b-6aa24a1c32f1.jpg?v=1584673253000</a></div>
+                                 <div class="url"><a href="https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true" target="_blank" rel="noopener noreferrer nofollow ugc">https://github.com/CabralPro/MEUS_CERTIFICADOS/blob/main/Cria%C3%A7%C3%A3o%20de%20apps%20com%20Flutter.jpg?raw=true</a></div>
                                  <div>
                                     <div class="description "></div>
                                  </div>
@@ -1778,7 +1816,7 @@ const originalHtml = `
                               <div class="experience-description">
                                  <div class="publication-name">Modern Web Course with JavaScript 2020 FULL</div>
                                  <div class="publisher">Udemy</div>
-                                 <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16</a></div>
+                                 <div class="url"><a href="https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg" target="_blank" rel="noopener noreferrer nofollow ugc">https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg</a></div>
                                  <div>
                                     <div class="description "></div>
                                  </div>
@@ -1786,7 +1824,7 @@ const originalHtml = `
                               <div class="experience-description">
                                  <div class="publication-name">Modern Web Course with JavaScript 2020 FULL</div>
                                  <div class="publisher">Udemy</div>
-                                 <div class="url"><a href="https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16" target="_blank" rel="noopener noreferrer nofollow ugc">https://udemy-certificate.s3.amazonaws.com/image/UC-7c6617b4-75ee-423f-a010-df16</a></div>
+                                 <div class="url"><a href="https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg" target="_blank" rel="noopener noreferrer nofollow ugc">https://raw.githubusercontent.com/CabralPro/MEUS_CERTIFICADOS/main/Web%20Moderno.jpg</a></div>
                                  <div>
                                     <div class="description "></div>
                                  </div>

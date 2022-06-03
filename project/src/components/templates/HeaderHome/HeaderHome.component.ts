@@ -6,6 +6,7 @@ import Component from 'vue-class-component';
 export default class HeaderHomeComponent extends Vue {
 
 	mounted() {
+		console.log("object");
 		import("@/assets/js/animation.js").then();
 	}
 
@@ -26,7 +27,7 @@ export default class HeaderHomeComponent extends Vue {
 		},
 		{
 			icon: "fluent:document-briefcase-20-filled",
-			text: "Currículo",
+			text: "Resume",
 			link: "/resume",
 		},
 	]

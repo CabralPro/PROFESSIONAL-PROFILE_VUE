@@ -2,10 +2,9 @@
   <footer class="col footer-home">
     <img src="@/assets/img/logo.png" alt="" />
     <h3>
-      "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um
-      problema"
+      "Being a developer is a travel where the next stop is the solution of a problem."
     </h3>
-    <p>© Desenvolvido por Arthur Cabral</p>
+    <p>©Developed by Arthur Cabral Lemos</p>
   </footer>
 </template>
 

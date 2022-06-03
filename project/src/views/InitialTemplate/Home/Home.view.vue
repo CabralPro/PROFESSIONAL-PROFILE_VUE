@@ -11,7 +11,7 @@
         />
       </div>
 
-      <div id="conhecimento"></div>
+      <div id="skills"></div>
 
       <div class="areas" v-animate.repeat.fade="'slide-up'">
         <h1 class="title">Skills</h1>
@@ -46,7 +46,7 @@
           </Fieldset>
 
           <Fieldset
-            title="Banco de Dados"
+            title="Database"
             v-animate.repeat.fade="'slide-left'"
             :style="{ width: '100%' }"
           >
@@ -71,10 +71,10 @@
         </div>
       </div>
 
-      <div id="portifolio" />
+      <div id="portfolio" />
 
       <div class="portifolio row" v-animate.repeat.fade="'slide-up'">
-        <h1 class="title">Portifólio</h1>
+        <h1 class="title">Portfolio</h1>
         <ProjectCard
           v-for="project of projects"
           :key="project.title"
@@ -84,17 +84,17 @@
 
       <div
         class="contato col"
-        id="contratar"
+        id="contact"
         v-animate.repeat.fade="'slide-up'"
       >
-        <h1>Estou animado para entender o seu projeto. Pronto para começar?</h1>
+        <h1>I'm excited to understand your project. Ready to get started?</h1>
         <a
           class="btn"
-          href="https://api.whatsapp.com/send?phone=5531998762713&text=Ol%C3%A1%20tudo%20bem%3F%20Venho%20atrav%C3%A9s%20do%20seu%20portif%C3%B3lio%20do%20endere%C3%A7o%20https%3A%2F%2Fcabral-tec.web.app"
+          href="https://api.whatsapp.com/send?phone=5531998762713&text=Hello%2C%20I%20come%20through%20the%20site%20https%3A%2F%2Fcabral-tec.web.app"
 					target="_blank"
         >
           <span class="iconify" data-icon="logos:whatsapp"></span>
-          Entrar em contato
+          Send message
         </a>
       </div>
     </div>

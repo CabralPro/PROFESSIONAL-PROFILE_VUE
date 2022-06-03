@@ -4,10 +4,10 @@
       <canvas id="nokey"></canvas>
 
       <nav class="row" v-animate.repeat.fade="'slide-right'">
-        <a href="#intro">Introdução</a>
-        <a href="#conhecimento">Conhecimento</a>
-        <a href="#portifolio">Portifólio</a>
-        <a href="#contratar">Contratar</a>
+        <a href="#intro">Introdution</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
 
       <img
