@@ -6,7 +6,6 @@ import Component from 'vue-class-component';
 export default class HeaderHomeComponent extends Vue {
 
 	mounted() {
-		console.log("object");
 		import("@/assets/js/animation.js").then();
 	}
 
