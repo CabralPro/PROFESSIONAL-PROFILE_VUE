@@ -1,6 +1,28 @@
 <template>
   <div class="resume">
-    <iframe :srcdoc="resumeHtml" width="100%" height="100%"></iframe>
+    <Loader v-show="loading || !initialized" />
+
+    <div class="scrollable">
+
+      <div class="options">
+
+        <router-link :to="{ name: 'Home' }">
+          <img src="@/assets/img/logo-color.png" alt="cabral-tec" />
+        </router-link>
+
+        <button
+          class="btn-download"
+          @click="generateReport()"
+          :disabled="loading || !initialized"
+        >
+          Download PDF
+        </button>
+
+      </div>
+
+      <div v-show="initialized" v-html="resumeHtml"></div>
+
+    </div>
   </div>
 </template>
 

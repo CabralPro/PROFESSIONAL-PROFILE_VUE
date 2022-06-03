@@ -1,5 +1,43 @@
 .resume {
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	overflow-x: auto !important;
+	overflow-y: hidden;
+	background: linear-gradient(400deg, #4b6cb7 0%, #182848 100%);
+	min-height: 100vh;
+
+	.scrollable {
+		min-width: 700px !important;
+		height: 100%;
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.options {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		margin: 25px 0;
+
+		.btn-download {
+			background: #132852;
+			margin: auto;
+			border-radius: 5px;
+			padding: 5px 15px;
+			color: white;
+			border: 2px solid #0a1429;
+			cursor: pointer;
+			&:hover {
+				background: #0a1429;
+			}
+		}
+		img {
+			position: absolute;
+			left: 10px;
+			top: -87px;
+			width: 200px;
+			height: 200px;
+			max-height: fit-content;
+		}
+	}
 }

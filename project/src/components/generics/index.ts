@@ -1,5 +1,5 @@
 import Vue from 'vue';
 
-// import SocialNetworks from './SocialNetworks/SocialNetworks.component.vue';
+import Loader from './Loader/Loader.component.vue';
 
-// Vue.component('SocialNetworks', SocialNetworks);
+Vue.component('Loader', Loader);

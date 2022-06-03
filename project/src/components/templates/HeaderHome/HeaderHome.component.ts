@@ -25,7 +25,7 @@ export default class HeaderHomeComponent extends Vue {
 			text: "cabraltec02@gmail.com",
 		},
 		{
-			icon: "arcticons:document-viewer",
+			icon: "fluent:document-briefcase-20-filled",
 			text: "Currículo",
 			link: "/resume",
 		},

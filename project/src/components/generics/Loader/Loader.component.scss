@@ -1,0 +1,22 @@
+.loader {
+  width: 100%;
+  height: 4px;
+  position: relative;
+  overflow: hidden;
+  background:  #4b6cb7 ;
+	.bar {
+		position:absolute;
+		width: calc(100% * 2/7);
+		height: 100%;
+		display: flex;
+		animation: move 1s linear infinite;
+		background-color: #182848 ;
+	}
+}
+
+
+@keyframes move
+{
+    0%   {transform: translate(-100%, 0)}
+    100% {transform: translate(calc(7/2*100%), 0)}
+}

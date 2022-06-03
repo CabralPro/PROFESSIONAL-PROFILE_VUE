@@ -1,1 +1,1 @@
-// import './vue-html-to-paper.config';
+import './vue-animate-scroll';

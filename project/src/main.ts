@@ -4,13 +4,10 @@ import './assets/scss/style.scss';
 import './components';
 import './configs';
 
-import VueAnimate from 'vue-animate-scroll'
-
 import App from './App.vue'
 import router from './router'
 
 Vue.config.productionTip = false
-Vue.use(VueAnimate)
 
 window.VueContext = new Vue({
 	router,
