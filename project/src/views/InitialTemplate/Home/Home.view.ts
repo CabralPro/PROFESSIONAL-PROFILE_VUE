@@ -63,6 +63,7 @@ export default class HomeView extends Vue {
 		{ title: "MySql", percent: 85, color: "white", icon: "simple-icons:mysql" },
 		{ title: "Firebird", percent: 85, image: "assets/img/icons/firebird.png" },
 		{ title: "Couchbase", percent: 70, icon: "logos:couchbase" },
+		{ title: "SQLite", percent: 85, icon: "logos:sqlite" },
 	]
 
 	severalSkills: Skill[] = [
