@@ -78,7 +78,7 @@ const originalHtml = `
                      <div class="outer-page multi-page grid-100-center type-one">
                         <div class="page first-page" data-part="1" data-count="3">
                            <div class="top-ornament"></div>
-                           <svg class="preview-overlay PreviewOverlay__preview-overlay___2kLdXpq4KL" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
+                           <svg class="preview-overlay PreviewOverlay__preview-overlay___rbwwTqTcpq" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
                               <g>
                                  <path d="M139.5,69.4c0,20.5-6.4,36.2-19.2,47c-12.8,10.9-31,16.3-54.6,16.3H48.3v67.7H8V10h60.8c23.1,0,40.7,5,52.7,14.9 C133.5,34.9,139.5,49.7,139.5,69.4z M48.3,99.7h13.3c12.4,0,21.7-2.5,27.9-7.4c6.2-4.9,9.2-12,9.2-21.4c0-9.5-2.6-16.5-7.7-21 c-5.2-4.5-13.3-6.8-24.3-6.8H48.3V99.7z"></path>
                                  <path d="M215.8,127.4v73.1h-40.4V10H231c25.9,0,45,4.7,57.4,14.1c12.4,9.4,18.6,23.7,18.6,42.9c0,11.2-3.1,21.2-9.2,29.9 c-6.2,8.7-14.9,15.6-26.2,20.5c28.7,42.8,47.3,70.5,56,83h-44.8l-45.5-73.1H215.8z M215.8,94.6h13c12.8,0,22.2-2.1,28.3-6.4 c6.1-4.3,9.1-10.9,9.1-20.1c0-9-3.1-15.5-9.3-19.3c-6.2-3.8-15.8-5.7-28.9-5.7h-12.2V94.6z"></path>
@@ -115,7 +115,7 @@ const originalHtml = `
                                        <div class="description "><span>I'm </span><span>a </span><span>full </span><span>stack </span><span>developer, </span><span>technology </span><span>lover </span><span>❤️🤓. </span><span>Constant </span><span>learner, </span><span>fascinated </span><span>in </span><span>contributing </span><span>to </span><span>the </span><span>development </span><span>of </span><span>systems, </span><span>providing </span><span>business </span><span>improvements, </span><span>acquiring </span><span>and </span><span>sharing </span><span>knowledge.</span></div>
                                     </div>
                                  </div>
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               </div>
                            </div>
                            <div class="column-wrapper rich-text-section kickresume-section-wrapper " id="2b59ea48-0dbb-432d-9123-3794ebd4271a">
@@ -166,12 +166,12 @@ const originalHtml = `
                                     </ul>
                                     <div class="description " part="0"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                                  </div>
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="44ea8e88-c2b3-4a48-909d-8930d2b2dedc">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -190,7 +190,7 @@ const originalHtml = `
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-info">
-                                       <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                       <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                        <div class="position">Analysis and systems development | Bachelor's degree</div>
                                        <div class="company-name">Universidade Pitágoras Unopar Anhanguera</div>
                                     </div>
@@ -208,7 +208,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="42a795f1-f34c-4595-8481-c618070cece5">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -227,7 +227,7 @@ const originalHtml = `
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-info">
-                                       <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                       <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                        <div class="position"> .Net | Angular Developer</div>
                                        <div class="company-name">BANK BS2&nbsp;HUB TECNOLOGIA DIGITAL LTDA</div>
                                     </div>
@@ -245,7 +245,7 @@ const originalHtml = `
                      <div class="outer-page multi-page grid-100-center type-one">
                         <div class="page " data-part="2" data-count="3">
                            <div class="top-ornament"></div>
-                           <svg class="preview-overlay PreviewOverlay__preview-overlay___2kLdXpq4KL" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
+                           <svg class="preview-overlay PreviewOverlay__preview-overlay___rbwwTqTcpq" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
                               <g>
                                  <path d="M139.5,69.4c0,20.5-6.4,36.2-19.2,47c-12.8,10.9-31,16.3-54.6,16.3H48.3v67.7H8V10h60.8c23.1,0,40.7,5,52.7,14.9 C133.5,34.9,139.5,49.7,139.5,69.4z M48.3,99.7h13.3c12.4,0,21.7-2.5,27.9-7.4c6.2-4.9,9.2-12,9.2-21.4c0-9.5-2.6-16.5-7.7-21 c-5.2-4.5-13.3-6.8-24.3-6.8H48.3V99.7z"></path>
                                  <path d="M215.8,127.4v73.1h-40.4V10H231c25.9,0,45,4.7,57.4,14.1c12.4,9.4,18.6,23.7,18.6,42.9c0,11.2-3.1,21.2-9.2,29.9 c-6.2,8.7-14.9,15.6-26.2,20.5c28.7,42.8,47.3,70.5,56,83h-44.8l-45.5-73.1H215.8z M215.8,94.6h13c12.8,0,22.2-2.1,28.3-6.4 c6.1-4.3,9.1-10.9,9.1-20.1c0-9-3.1-15.5-9.3-19.3c-6.2-3.8-15.8-5.7-28.9-5.7h-12.2V94.6z"></path>
@@ -257,7 +257,7 @@ const originalHtml = `
                               </g>
                            </svg>
                            <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="42a795f1-f34c-4595-8481-c618070cece5">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -289,7 +289,7 @@ const originalHtml = `
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-info">
-                                       <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                       <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                        <div class="position"> .Net | Angular Developer</div>
                                        <div class="company-name">SIX TECH TECNOLOGIA E PARTICIPAÇÕES S/A</div>
                                     </div>
@@ -312,7 +312,7 @@ const originalHtml = `
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-info">
-                                       <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                       <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                        <div class="position"> .Net | Vue.js Developer - Junior</div>
                                        <div class="company-name">DONUZ SERVICOS DE INFORMATICA LTDA</div>
                                     </div>
@@ -335,7 +335,7 @@ const originalHtml = `
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-info">
-                                       <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                       <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                        <div class="position">Administrative Assistant</div>
                                        <div class="company-name">SUPERMERCADO MAIA PIMENTA LTDA</div>
                                     </div>
@@ -353,7 +353,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="43cab7df-fb29-4314-93ca-3ba29c0bede9">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -368,7 +368,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name ">Front-end</div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">Angular</div>
@@ -392,7 +392,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name ">Back-end</div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">.Net</div>
@@ -424,7 +424,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name ">Mobile</div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">Flutter</div>
@@ -440,7 +440,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name ">Devops and others</div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">Azure Devops</div>
@@ -488,7 +488,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name ">Agile Methodologies</div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">Scrum </div>
@@ -511,7 +511,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="05ae758a-5f25-4279-bf55-b0e9efb08486">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -528,7 +528,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">11/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -546,7 +546,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">10/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -566,7 +566,7 @@ const originalHtml = `
                      <div class="outer-page multi-page grid-100-center type-one">
                         <div class="page " data-part="3" data-count="3">
                            <div class="top-ornament"></div>
-                           <svg class="preview-overlay PreviewOverlay__preview-overlay___2kLdXpq4KL" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
+                           <svg class="preview-overlay PreviewOverlay__preview-overlay___rbwwTqTcpq" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
                               <g>
                                  <path d="M139.5,69.4c0,20.5-6.4,36.2-19.2,47c-12.8,10.9-31,16.3-54.6,16.3H48.3v67.7H8V10h60.8c23.1,0,40.7,5,52.7,14.9 C133.5,34.9,139.5,49.7,139.5,69.4z M48.3,99.7h13.3c12.4,0,21.7-2.5,27.9-7.4c6.2-4.9,9.2-12,9.2-21.4c0-9.5-2.6-16.5-7.7-21 c-5.2-4.5-13.3-6.8-24.3-6.8H48.3V99.7z"></path>
                                  <path d="M215.8,127.4v73.1h-40.4V10H231c25.9,0,45,4.7,57.4,14.1c12.4,9.4,18.6,23.7,18.6,42.9c0,11.2-3.1,21.2-9.2,29.9 c-6.2,8.7-14.9,15.6-26.2,20.5c28.7,42.8,47.3,70.5,56,83h-44.8l-45.5-73.1H215.8z M215.8,94.6h13c12.8,0,22.2-2.1,28.3-6.4 c6.1-4.3,9.1-10.9,9.1-20.1c0-9-3.1-15.5-9.3-19.3c-6.2-3.8-15.8-5.7-28.9-5.7h-12.2V94.6z"></path>
@@ -578,7 +578,7 @@ const originalHtml = `
                               </g>
                            </svg>
                            <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="05ae758a-5f25-4279-bf55-b0e9efb08486">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -595,7 +595,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">10/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -613,7 +613,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">03/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -631,7 +631,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">03/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -649,7 +649,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">01/2020</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -667,7 +667,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">10/2019</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -685,7 +685,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">03/2019</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -703,7 +703,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">02/2019</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -721,7 +721,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">01/2019</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -739,7 +739,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">08/2018</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -757,7 +757,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">07/2018</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -775,7 +775,7 @@ const originalHtml = `
                                     <div class="experience-info">
                                        <div class="date">09/2015</div>
                                     </div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -790,7 +790,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="492e9995-1a34-4271-a7a0-b39567814962">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -805,7 +805,7 @@ const originalHtml = `
                               <div class="skill-category column-wrapper">
                                  <div class="skill-wrapper">
                                     <div class="skill-category-name "><br></div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                     <div class="skills">
                                        <div class="skill ">
                                           <div class="skill-name">Portuguese</div>
@@ -824,7 +824,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="80c6eeca-ab27-41e1-b789-142796ba94d3">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -838,7 +838,7 @@ const originalHtml = `
                               <div class="experience-item">
                                  <div class="column left-column-render">
                                     <div class="experience-info"></div>
-                                    <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  </div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
@@ -853,7 +853,7 @@ const originalHtml = `
                               </div>
                            </div>
                            <div class="kickresume-section-wrapper social-section sec-al-left column-wrapper " id="94278bae-7d20-4686-b9e6-62b348254403">
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <h6 class="headline type-four">
                                  <div class="background-wrapper">
                                     <span class="icon fixed">
@@ -892,7 +892,7 @@ const originalHtml = `
             </div>
          </div>
       </div>
-      <script src="https://d1civoyjepycei.cloudfront.net/static/js/sentry.conf.07de9cdec6c1.js"></script>
+      <script src="https://d1civoyjepycei.cloudfront.net/static/js/sentry.conf.5af3463d5d83.js"></script>
       <script type="text/javascript">
          window.environment = 'production';
          window.allowed_origin = "*";
@@ -900,15 +900,15 @@ const originalHtml = `
            window.version = 'development';
          }
       </script>
-      <link href="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/css/iframe-preview.4b2b45b5.css" rel="stylesheet">
-      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/js/iframe-preview.bb88b6fc.js"></script>
+      <link href="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/css/iframe-preview.97db5a51.css" rel="stylesheet">
+      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/js/iframe-preview.25d0b480.js"></script>
       <div style="overflow: hidden; max-height: 1px; position: absolute; top: 0;">
          <div style="opacity: 0;-moz-opacity: 0;filter: alpha(opacity=0);">
             <div class="template render stanford a4 fcn-fcn fs-13 lh-16 win" style="width: 794px;">
                <div class="outer-page grid-100-center type-one">
                   <div class="page first-page" data-part="1" data-count="0">
                      <div class="top-ornament"></div>
-                     <svg class="preview-overlay PreviewOverlay__preview-overlay___2kLdXpq4KL" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
+                     <svg class="preview-overlay PreviewOverlay__preview-overlay___rbwwTqTcpq" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
                         <g>
                            <path d="M139.5,69.4c0,20.5-6.4,36.2-19.2,47c-12.8,10.9-31,16.3-54.6,16.3H48.3v67.7H8V10h60.8c23.1,0,40.7,5,52.7,14.9 C133.5,34.9,139.5,49.7,139.5,69.4z M48.3,99.7h13.3c12.4,0,21.7-2.5,27.9-7.4c6.2-4.9,9.2-12,9.2-21.4c0-9.5-2.6-16.5-7.7-21 c-5.2-4.5-13.3-6.8-24.3-6.8H48.3V99.7z"></path>
                            <path d="M215.8,127.4v73.1h-40.4V10H231c25.9,0,45,4.7,57.4,14.1c12.4,9.4,18.6,23.7,18.6,42.9c0,11.2-3.1,21.2-9.2,29.9 c-6.2,8.7-14.9,15.6-26.2,20.5c28.7,42.8,47.3,70.5,56,83h-44.8l-45.5-73.1H215.8z M215.8,94.6h13c12.8,0,22.2-2.1,28.3-6.4 c6.1-4.3,9.1-10.9,9.1-20.1c0-9-3.1-15.5-9.3-19.3c-6.2-3.8-15.8-5.7-28.9-5.7h-12.2V94.6z"></path>
@@ -925,7 +925,7 @@ const originalHtml = `
                <div class="outer-page grid-100-center type-one">
                   <div class="page first-page" data-part="1" data-count="0">
                      <div class="top-ornament"></div>
-                     <svg class="preview-overlay PreviewOverlay__preview-overlay___2kLdXpq4KL" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
+                     <svg class="preview-overlay PreviewOverlay__preview-overlay___rbwwTqTcpq" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1152 210" enable-background="new 0 0 1152 210;">
                         <g>
                            <path d="M139.5,69.4c0,20.5-6.4,36.2-19.2,47c-12.8,10.9-31,16.3-54.6,16.3H48.3v67.7H8V10h60.8c23.1,0,40.7,5,52.7,14.9 C133.5,34.9,139.5,49.7,139.5,69.4z M48.3,99.7h13.3c12.4,0,21.7-2.5,27.9-7.4c6.2-4.9,9.2-12,9.2-21.4c0-9.5-2.6-16.5-7.7-21 c-5.2-4.5-13.3-6.8-24.3-6.8H48.3V99.7z"></path>
                            <path d="M215.8,127.4v73.1h-40.4V10H231c25.9,0,45,4.7,57.4,14.1c12.4,9.4,18.6,23.7,18.6,42.9c0,11.2-3.1,21.2-9.2,29.9 c-6.2,8.7-14.9,15.6-26.2,20.5c28.7,42.8,47.3,70.5,56,83h-44.8l-45.5-73.1H215.8z M215.8,94.6h13c12.8,0,22.2-2.1,28.3-6.4 c6.1-4.3,9.1-10.9,9.1-20.1c0-9-3.1-15.5-9.3-19.3c-6.2-3.8-15.8-5.7-28.9-5.7h-12.2V94.6z"></path>
@@ -962,7 +962,7 @@ const originalHtml = `
                                  <div class="description "><span>I'm </span><span>a </span><span>full </span><span>stack </span><span>developer, </span><span>technology </span><span>lover </span><span>❤️🤓. </span><span>Constant </span><span>learner, </span><span>fascinated </span><span>in </span><span>contributing </span><span>to </span><span>the </span><span>development </span><span>of </span><span>systems, </span><span>providing </span><span>business </span><span>improvements, </span><span>acquiring </span><span>and </span><span>sharing </span><span>knowledge.</span></div>
                               </div>
                            </div>
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         </div>
                      </div>
                      <div class="general-section ">
@@ -991,7 +991,7 @@ const originalHtml = `
                                  <div class="description "><span>I'm </span><span>a </span><span>full </span><span>stack </span><span>developer, </span><span>technology </span><span>lover </span><span>❤️🤓. </span><span>Constant </span><span>learner, </span><span>fascinated </span><span>in </span><span>contributing </span><span>to </span><span>the </span><span>development </span><span>of </span><span>systems, </span><span>providing </span><span>business </span><span>improvements, </span><span>acquiring </span><span>and </span><span>sharing </span><span>knowledge.</span></div>
                               </div>
                            </div>
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         </div>
                      </div>
                      <div class="column-wrapper rich-text-section kickresume-section-wrapper " id="2b59ea48-0dbb-432d-9123-3794ebd4271a">
@@ -1007,7 +1007,7 @@ const originalHtml = `
                            </div>
                         </h6>
                         <div class="text-area rich-text-area">
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         </div>
                      </div>
                      <div class="column-wrapper rich-text-section kickresume-section-wrapper " id="2b59ea48-0dbb-432d-9123-3794ebd4271a">
@@ -1023,74 +1023,74 @@ const originalHtml = `
                            </div>
                         </h6>
                         <div class="text-area rich-text-area">
-                           <div refb="6a824733-e37e-11ec-b6ed-e973570a6ff5"></div>
-                           <div refb="6a824733-e37e-11ec-b6ed-e973570a6ff5">
-                              <ul refb="6a824734-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a824734-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a824735-e37e-11ec-b6ed-e973570a6ff5"><span>Resumed </span><span>value: </span></li>
-                                 <li class="description " refb="6a824735-e37e-11ec-b6ed-e973570a6ff5"><span>Resumed </span><span>value: </span></li>
+                           <div refb="f7e74fe3-fc69-11ec-83ea-3d870eff2768"></div>
+                           <div refb="f7e74fe3-fc69-11ec-83ea-3d870eff2768">
+                              <ul refb="f7e74fe4-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74fe4-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74fe5-fc69-11ec-83ea-3d870eff2768"><span>Resumed </span><span>value: </span></li>
+                                 <li class="description " refb="f7e74fe5-fc69-11ec-83ea-3d870eff2768"><span>Resumed </span><span>value: </span></li>
                               </ul>
-                              <div class="description " refb="6a824736-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
-                              <div class="description " refb="6a824736-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
-                              <ul refb="6a824737-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a824737-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a824738-e37e-11ec-b6ed-e973570a6ff5"><span>Front-end: </span></li>
-                                 <li class="description " refb="6a824738-e37e-11ec-b6ed-e973570a6ff5"><span>Front-end: </span></li>
+                              <div class="description " refb="f7e74fe6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <div class="description " refb="f7e74fe6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <ul refb="f7e74fe7-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74fe7-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74fe8-fc69-11ec-83ea-3d870eff2768"><span>Front-end: </span></li>
+                                 <li class="description " refb="f7e74fe8-fc69-11ec-83ea-3d870eff2768"><span>Front-end: </span></li>
                               </ul>
-                              <div class="description " refb="6a824739-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
-                              <div class="description " refb="6a824739-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
-                              <ul refb="6a82473a-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a82473a-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a82473b-e37e-11ec-b6ed-e973570a6ff5"><span>Back-end: </span></li>
-                                 <li class="description " refb="6a82473b-e37e-11ec-b6ed-e973570a6ff5"><span>Back-end: </span></li>
+                              <div class="description " refb="f7e74fe9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <div class="description " refb="f7e74fe9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <ul refb="f7e74fea-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74fea-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74feb-fc69-11ec-83ea-3d870eff2768"><span>Back-end: </span></li>
+                                 <li class="description " refb="f7e74feb-fc69-11ec-83ea-3d870eff2768"><span>Back-end: </span></li>
                               </ul>
-                              <div class="description " refb="6a82473c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
-                              <div class="description " refb="6a82473c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
-                              <div class="description " refb="6a82473d-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Node, </span><span>Express</span></div>
-                              <div class="description " refb="6a82473d-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Node, </span><span>Express</span></div>
-                              <ul refb="6a82473e-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a82473e-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a82473f-e37e-11ec-b6ed-e973570a6ff5"><span>Mobile:	</span></li>
-                                 <li class="description " refb="6a82473f-e37e-11ec-b6ed-e973570a6ff5"><span>Mobile:	</span></li>
+                              <div class="description " refb="f7e74fec-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
+                              <div class="description " refb="f7e74fec-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
+                              <div class="description " refb="f7e74fed-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Node, </span><span>Express</span></div>
+                              <div class="description " refb="f7e74fed-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Node, </span><span>Express</span></div>
+                              <ul refb="f7e74fee-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74fee-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74fef-fc69-11ec-83ea-3d870eff2768"><span>Mobile:	</span></li>
+                                 <li class="description " refb="f7e74fef-fc69-11ec-83ea-3d870eff2768"><span>Mobile:	</span></li>
                               </ul>
-                              <div class="description " refb="6a824740-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Flutter</span></div>
-                              <div class="description " refb="6a824740-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Flutter</span></div>
-                              <ul refb="6a824741-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a824741-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a824742-e37e-11ec-b6ed-e973570a6ff5"><span>Programming </span><span>languages: </span></li>
-                                 <li class="description " refb="6a824742-e37e-11ec-b6ed-e973570a6ff5"><span>Programming </span><span>languages: </span></li>
+                              <div class="description " refb="f7e74ff0-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Flutter</span></div>
+                              <div class="description " refb="f7e74ff0-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Flutter</span></div>
+                              <ul refb="f7e74ff1-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74ff1-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74ff2-fc69-11ec-83ea-3d870eff2768"><span>Programming </span><span>languages: </span></li>
+                                 <li class="description " refb="f7e74ff2-fc69-11ec-83ea-3d870eff2768"><span>Programming </span><span>languages: </span></li>
                               </ul>
-                              <div class="description " refb="6a824743-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
-                              <div class="description " refb="6a824743-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
-                              <ul refb="6a824744-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a824744-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a824745-e37e-11ec-b6ed-e973570a6ff5"><span>Database: </span></li>
-                                 <li class="description " refb="6a824745-e37e-11ec-b6ed-e973570a6ff5"><span>Database: </span></li>
+                              <div class="description " refb="f7e74ff3-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <div class="description " refb="f7e74ff3-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <ul refb="f7e74ff4-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74ff4-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74ff5-fc69-11ec-83ea-3d870eff2768"><span>Database: </span></li>
+                                 <li class="description " refb="f7e74ff5-fc69-11ec-83ea-3d870eff2768"><span>Database: </span></li>
                               </ul>
-                              <div class="description " refb="6a824746-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
-                              <div class="description " refb="6a824746-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
-                              <ul refb="6a824747-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a824747-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a824748-e37e-11ec-b6ed-e973570a6ff5"><span>Agile </span><span>methodologies: </span></li>
-                                 <li class="description " refb="6a824748-e37e-11ec-b6ed-e973570a6ff5"><span>Agile </span><span>methodologies: </span></li>
+                              <div class="description " refb="f7e74ff6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <div class="description " refb="f7e74ff6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <ul refb="f7e74ff7-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74ff7-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74ff8-fc69-11ec-83ea-3d870eff2768"><span>Agile </span><span>methodologies: </span></li>
+                                 <li class="description " refb="f7e74ff8-fc69-11ec-83ea-3d870eff2768"><span>Agile </span><span>methodologies: </span></li>
                               </ul>
-                              <div class="description " refb="6a824749-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
-                              <div class="description " refb="6a824749-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
-                              <ul refb="6a82474a-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                              <ul refb="6a82474a-e37e-11ec-b6ed-e973570a6ff5">
-                                 <li class="description " refb="6a82474b-e37e-11ec-b6ed-e973570a6ff5"><span>Devops </span><span>and </span><span>others: </span></li>
-                                 <li class="description " refb="6a82474b-e37e-11ec-b6ed-e973570a6ff5"><span>Devops </span><span>and </span><span>others: </span></li>
+                              <div class="description " refb="f7e74ff9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <div class="description " refb="f7e74ff9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <ul refb="f7e74ffa-fc69-11ec-83ea-3d870eff2768"></ul>
+                              <ul refb="f7e74ffa-fc69-11ec-83ea-3d870eff2768">
+                                 <li class="description " refb="f7e74ffb-fc69-11ec-83ea-3d870eff2768"><span>Devops </span><span>and </span><span>others: </span></li>
+                                 <li class="description " refb="f7e74ffb-fc69-11ec-83ea-3d870eff2768"><span>Devops </span><span>and </span><span>others: </span></li>
                               </ul>
-                              <div class="description " refb="6a82474c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
-                              <div class="description " refb="6a82474c-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                              <div class="description " refb="f7e74ffc-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                              <div class="description " refb="f7e74ffc-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                            </div>
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                           <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                           <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="44ea8e88-c2b3-4a48-909d-8930d2b2dedc">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1103,7 +1103,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="44ea8e88-c2b3-4a48-909d-8930d2b2dedc">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1126,29 +1126,29 @@ const originalHtml = `
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position">Analysis and systems development | Bachelor's degree</div>
                                  <div class="company-name">Universidade Pitágoras Unopar Anhanguera</div>
                               </div>
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position">Analysis and systems development | Bachelor's degree</div>
                                  <div class="company-name">Universidade Pitágoras Unopar Anhanguera</div>
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="6a824753-e37e-11ec-b6ed-e973570a6ff5"></div>
-                                 <div refb="6a824753-e37e-11ec-b6ed-e973570a6ff5">
-                                    <ul refb="6a824754-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                                    <ul refb="6a824754-e37e-11ec-b6ed-e973570a6ff5">
-                                       <li class="description " refb="6a824755-e37e-11ec-b6ed-e973570a6ff5"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="6a824755-e37e-11ec-b6ed-e973570a6ff5"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="6a824756-e37e-11ec-b6ed-e973570a6ff5"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="6a824756-e37e-11ec-b6ed-e973570a6ff5"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="6a824757-e37e-11ec-b6ed-e973570a6ff5"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="6a824757-e37e-11ec-b6ed-e973570a6ff5"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="6a824758-e37e-11ec-b6ed-e973570a6ff5"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
-                                       <li class="description " refb="6a824758-e37e-11ec-b6ed-e973570a6ff5"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                 <div refb="f7e75003-fc69-11ec-83ea-3d870eff2768"></div>
+                                 <div refb="f7e75003-fc69-11ec-83ea-3d870eff2768">
+                                    <ul refb="f7e75004-fc69-11ec-83ea-3d870eff2768"></ul>
+                                    <ul refb="f7e75004-fc69-11ec-83ea-3d870eff2768">
+                                       <li class="description " refb="f7e75005-fc69-11ec-83ea-3d870eff2768"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="f7e75005-fc69-11ec-83ea-3d870eff2768"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="f7e75006-fc69-11ec-83ea-3d870eff2768"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="f7e75006-fc69-11ec-83ea-3d870eff2768"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="f7e75007-fc69-11ec-83ea-3d870eff2768"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="f7e75007-fc69-11ec-83ea-3d870eff2768"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="f7e75008-fc69-11ec-83ea-3d870eff2768"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                       <li class="description " refb="f7e75008-fc69-11ec-83ea-3d870eff2768"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1156,7 +1156,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="42a795f1-f34c-4595-8481-c618070cece5">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1169,7 +1169,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper experience-section type-three  column-wrapper " id="42a795f1-f34c-4595-8481-c618070cece5">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1192,25 +1192,25 @@ const originalHtml = `
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Angular Developer</div>
                                  <div class="company-name">BANK BS2&nbsp;HUB TECNOLOGIA DIGITAL LTDA</div>
                               </div>
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Angular Developer</div>
                                  <div class="company-name">BANK BS2&nbsp;HUB TECNOLOGIA DIGITAL LTDA</div>
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="6a82475e-e37e-11ec-b6ed-e973570a6ff5"></div>
-                                 <div refb="6a82475e-e37e-11ec-b6ed-e973570a6ff5">
-                                    <div class="description " refb="6a82475f-e37e-11ec-b6ed-e973570a6ff5"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="6a82475f-e37e-11ec-b6ed-e973570a6ff5"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <ul refb="6a824760-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                                    <ul refb="6a824760-e37e-11ec-b6ed-e973570a6ff5">
-                                       <li class="description " refb="6a824761-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
-                                       <li class="description " refb="6a824761-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                 <div refb="f7e7500e-fc69-11ec-83ea-3d870eff2768"></div>
+                                 <div refb="f7e7500e-fc69-11ec-83ea-3d870eff2768">
+                                    <div class="description " refb="f7e7500f-fc69-11ec-83ea-3d870eff2768"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="f7e7500f-fc69-11ec-83ea-3d870eff2768"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <ul refb="f7e75010-fc69-11ec-83ea-3d870eff2768"></ul>
+                                    <ul refb="f7e75010-fc69-11ec-83ea-3d870eff2768">
+                                       <li class="description " refb="f7e75011-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                       <li class="description " refb="f7e75011-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1228,27 +1228,27 @@ const originalHtml = `
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Angular Developer</div>
                                  <div class="company-name">SIX TECH TECNOLOGIA E PARTICIPAÇÕES S/A</div>
                               </div>
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Angular Developer</div>
                                  <div class="company-name">SIX TECH TECNOLOGIA E PARTICIPAÇÕES S/A</div>
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="6a824766-e37e-11ec-b6ed-e973570a6ff5"></div>
-                                 <div refb="6a824766-e37e-11ec-b6ed-e973570a6ff5">
-                                    <div class="description " refb="6a824767-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="6a824767-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="6a824768-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <div class="description " refb="6a824768-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <ul refb="6a824769-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                                    <ul refb="6a824769-e37e-11ec-b6ed-e973570a6ff5">
-                                       <li class="description " refb="6a82476a-e37e-11ec-b6ed-e973570a6ff5"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
-                                       <li class="description " refb="6a82476a-e37e-11ec-b6ed-e973570a6ff5"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                 <div refb="f7e75016-fc69-11ec-83ea-3d870eff2768"></div>
+                                 <div refb="f7e75016-fc69-11ec-83ea-3d870eff2768">
+                                    <div class="description " refb="f7e75017-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="f7e75017-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="f7e75018-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <div class="description " refb="f7e75018-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <ul refb="f7e75019-fc69-11ec-83ea-3d870eff2768"></ul>
+                                    <ul refb="f7e75019-fc69-11ec-83ea-3d870eff2768">
+                                       <li class="description " refb="f7e7501a-fc69-11ec-83ea-3d870eff2768"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                       <li class="description " refb="f7e7501a-fc69-11ec-83ea-3d870eff2768"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1266,27 +1266,27 @@ const originalHtml = `
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Vue.js Developer - Junior</div>
                                  <div class="company-name">DONUZ SERVICOS DE INFORMATICA LTDA</div>
                               </div>
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position"> .Net | Vue.js Developer - Junior</div>
                                  <div class="company-name">DONUZ SERVICOS DE INFORMATICA LTDA</div>
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="6a82476f-e37e-11ec-b6ed-e973570a6ff5"></div>
-                                 <div refb="6a82476f-e37e-11ec-b6ed-e973570a6ff5">
-                                    <div class="description " refb="6a824770-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="6a824770-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="6a824771-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <div class="description " refb="6a824771-e37e-11ec-b6ed-e973570a6ff5"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <ul refb="6a824772-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                                    <ul refb="6a824772-e37e-11ec-b6ed-e973570a6ff5">
-                                       <li class="description " refb="6a824773-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
-                                       <li class="description " refb="6a824773-e37e-11ec-b6ed-e973570a6ff5"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                 <div refb="f7e7501f-fc69-11ec-83ea-3d870eff2768"></div>
+                                 <div refb="f7e7501f-fc69-11ec-83ea-3d870eff2768">
+                                    <div class="description " refb="f7e75020-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="f7e75020-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="f7e75021-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <div class="description " refb="f7e75021-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <ul refb="f7e75022-fc69-11ec-83ea-3d870eff2768"></ul>
+                                    <ul refb="f7e75022-fc69-11ec-83ea-3d870eff2768">
+                                       <li class="description " refb="f7e75023-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                       <li class="description " refb="f7e75023-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1304,29 +1304,29 @@ const originalHtml = `
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position">Administrative Assistant</div>
                                  <div class="company-name">SUPERMERCADO MAIA PIMENTA LTDA</div>
                               </div>
                               <div class="experience-info">
-                                 <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                                 <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="position">Administrative Assistant</div>
                                  <div class="company-name">SUPERMERCADO MAIA PIMENTA LTDA</div>
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="6a824778-e37e-11ec-b6ed-e973570a6ff5"></div>
-                                 <div refb="6a824778-e37e-11ec-b6ed-e973570a6ff5">
-                                    <ul refb="6a824779-e37e-11ec-b6ed-e973570a6ff5"></ul>
-                                    <ul refb="6a824779-e37e-11ec-b6ed-e973570a6ff5">
-                                       <li class="description " refb="6a82477a-e37e-11ec-b6ed-e973570a6ff5"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="6a82477a-e37e-11ec-b6ed-e973570a6ff5"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="6a82477b-e37e-11ec-b6ed-e973570a6ff5"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="6a82477b-e37e-11ec-b6ed-e973570a6ff5"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="6a82477c-e37e-11ec-b6ed-e973570a6ff5"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="6a82477c-e37e-11ec-b6ed-e973570a6ff5"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="6a82477d-e37e-11ec-b6ed-e973570a6ff5"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
-                                       <li class="description " refb="6a82477d-e37e-11ec-b6ed-e973570a6ff5"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                 <div refb="f7e75028-fc69-11ec-83ea-3d870eff2768"></div>
+                                 <div refb="f7e75028-fc69-11ec-83ea-3d870eff2768">
+                                    <ul refb="f7e75029-fc69-11ec-83ea-3d870eff2768"></ul>
+                                    <ul refb="f7e75029-fc69-11ec-83ea-3d870eff2768">
+                                       <li class="description " refb="f7e7502a-fc69-11ec-83ea-3d870eff2768"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="f7e7502a-fc69-11ec-83ea-3d870eff2768"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="f7e7502b-fc69-11ec-83ea-3d870eff2768"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="f7e7502b-fc69-11ec-83ea-3d870eff2768"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="f7e7502c-fc69-11ec-83ea-3d870eff2768"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="f7e7502c-fc69-11ec-83ea-3d870eff2768"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="f7e7502d-fc69-11ec-83ea-3d870eff2768"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                       <li class="description " refb="f7e7502d-fc69-11ec-83ea-3d870eff2768"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1334,7 +1334,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="43cab7df-fb29-4314-93ca-3ba29c0bede9">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1348,7 +1348,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="43cab7df-fb29-4314-93ca-3ba29c0bede9">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1363,7 +1363,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Front-end</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Angular</div>
@@ -1387,7 +1387,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Front-end</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Angular</div>
@@ -1411,7 +1411,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Back-end</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">.Net</div>
@@ -1443,7 +1443,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Back-end</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">.Net</div>
@@ -1475,7 +1475,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Mobile</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Flutter</div>
@@ -1491,7 +1491,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Mobile</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Flutter</div>
@@ -1507,7 +1507,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Devops and others</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Azure Devops</div>
@@ -1555,7 +1555,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Devops and others</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Azure Devops</div>
@@ -1603,7 +1603,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Agile Methodologies</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Scrum </div>
@@ -1627,7 +1627,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name ">Agile Methodologies</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Scrum </div>
@@ -1650,7 +1650,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="05ae758a-5f25-4279-bf55-b0e9efb08486">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1664,7 +1664,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="05ae758a-5f25-4279-bf55-b0e9efb08486">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -1685,8 +1685,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">11/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1716,8 +1716,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">10/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1747,8 +1747,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">10/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1778,8 +1778,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">03/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1809,8 +1809,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">03/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1840,8 +1840,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">01/2020</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1871,8 +1871,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">10/2019</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1902,8 +1902,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">03/2019</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1933,8 +1933,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">02/2019</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1964,8 +1964,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">01/2019</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -1995,8 +1995,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">08/2018</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -2026,8 +2026,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">07/2018</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -2057,8 +2057,8 @@ const originalHtml = `
                               <div class="experience-info">
                                  <div class="date">09/2015</div>
                               </div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -2081,7 +2081,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="492e9995-1a34-4271-a7a0-b39567814962">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -2095,7 +2095,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="492e9995-1a34-4271-a7a0-b39567814962">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -2110,7 +2110,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name "><br></div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Portuguese</div>
@@ -2130,7 +2130,7 @@ const originalHtml = `
                         <div class="skill-category column-wrapper">
                            <div class="skill-wrapper">
                               <div class="skill-category-name "><br></div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                               <div class="skills">
                                  <div class="skill ">
                                     <div class="skill-name">Portuguese</div>
@@ -2149,7 +2149,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="80c6eeca-ab27-41e1-b789-142796ba94d3">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -2162,7 +2162,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper experience-section publication-section  column-wrapper " id="80c6eeca-ab27-41e1-b789-142796ba94d3">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -2178,8 +2178,8 @@ const originalHtml = `
                            <div class="column left-column-render">
                               <div class="experience-info"></div>
                               <div class="experience-info"></div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
+                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            </div>
                            <div class="column right-column-render">
                               <div class="experience-description">
@@ -2202,7 +2202,7 @@ const originalHtml = `
                         </div>
                      </div>
                      <div class="kickresume-section-wrapper social-section sec-al-left column-wrapper " id="94278bae-7d20-4686-b9e6-62b348254403">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
@@ -2216,7 +2216,7 @@ const originalHtml = `
                         </h6>
                      </div>
                      <div class="kickresume-section-wrapper social-section sec-al-left column-wrapper " id="94278bae-7d20-4686-b9e6-62b348254403">
-                        <div class="NoteDetails__note-detail___2UD4ZbcfuV note-detail-item">&nbsp;</div>
+                        <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                         <h6 class="headline type-four">
                            <div class="background-wrapper">
                               <span class="icon fixed">
