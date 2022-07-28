@@ -19,6 +19,7 @@ const styleToPrint = `
 
 
 const resumeHtmlstyle = `
+	<link rel="stylesheet" href="./resume-css/iframe-preview.css">
 	<style>
 		.page {
 			display: inline-table;
@@ -135,36 +136,38 @@ const originalHtml = `
                                     <ul part="0">
                                        <li class="description " part="0"><span>Resumed </span><span>value: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Front-end: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Back-end: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
-                                    <div class="description " part="0"><span>- </span><span>Node, </span><span>Express</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>MediatR</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SpecFlow, </span><span>XUnit</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Node, </span><span>Express</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Mobile:	</span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>Flutter</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Flutter</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Programming </span><span>languages: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Database: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Agile </span><span>methodologies: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
                                     <ul part="0">
                                        <li class="description " part="0"><span>Devops </span><span>and </span><span>others: </span></li>
                                     </ul>
-                                    <div class="description " part="0"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                                    <div class="description " part="0"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                                  </div>
                                  <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                                  <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
@@ -231,11 +234,6 @@ const originalHtml = `
                                        <div class="position"> .Net | Angular Developer</div>
                                        <div class="company-name">BANK BS2&nbsp;HUB TECNOLOGIA DIGITAL LTDA</div>
                                     </div>
-                                    <div class="experience-description">
-                                       <div part="0">
-                                          <div class="description " part="0"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span></div>
-                                       </div>
-                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -272,8 +270,8 @@ const originalHtml = `
                                  <div class="column left-column-render"></div>
                                  <div class="column right-column-render">
                                     <div class="experience-description">
-                                       <div part="1">
-                                          <div class="description " part="1"><span>Core </span><span>and </span><span>Angular</span></div>
+                                       <div part="0">
+                                          <div class="description " part="0"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
                                           <ul part="0">
                                              <li class="description " part="0"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
                                           </ul>
@@ -770,24 +768,6 @@ const originalHtml = `
                                     </div>
                                  </div>
                               </div>
-                              <div class="experience-item">
-                                 <div class="column left-column-render">
-                                    <div class="experience-info">
-                                       <div class="date">09/2015</div>
-                                    </div>
-                                    <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
-                                 </div>
-                                 <div class="column right-column-render">
-                                    <div class="experience-description">
-                                       <div class="publication-name">Assembly and maintenance of computers</div>
-                                       <div class="publisher">Online Informatica</div>
-                                       <div class="url"><a href="#" target="_blank" rel="noopener noreferrer nofollow ugc"></a></div>
-                                       <div>
-                                          <div class="description "></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
                            </div>
                            <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="492e9995-1a34-4271-a7a0-b39567814962">
                               <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
@@ -816,7 +796,7 @@ const originalHtml = `
                                        <div class="skill ">
                                           <div class="skill-name">English</div>
                                           <div class="skill-description-wrapper text">
-                                             <div class="skill-description">Basic / Intermediate</div>
+                                             <div class="skill-description">Intermediate</div>
                                           </div>
                                        </div>
                                     </div>
@@ -892,7 +872,7 @@ const originalHtml = `
             </div>
          </div>
       </div>
-      <script src="https://d1civoyjepycei.cloudfront.net/static/js/sentry.conf.5af3463d5d83.js"></script>
+      <script src="https://d1civoyjepycei.cloudfront.net/static/js/sentry.conf.a86e3ab04e27.js"></script>
       <script type="text/javascript">
          window.environment = 'production';
          window.allowed_origin = "*";
@@ -900,8 +880,8 @@ const originalHtml = `
            window.version = 'development';
          }
       </script>
-      <link href="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/css/iframe-preview.97db5a51.css" rel="stylesheet">
-      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/js/iframe-preview.25d0b480.js"></script>
+      <link href="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/css/iframe-preview.254a77c1.css" rel="stylesheet">
+      <script src="https://d1civoyjepycei.cloudfront.net/static/assets/bundle/js/iframe-preview.d90818e3.js"></script>
       <div style="overflow: hidden; max-height: 1px; position: absolute; top: 0;">
          <div style="opacity: 0;-moz-opacity: 0;filter: alpha(opacity=0);">
             <div class="template render stanford a4 fcn-fcn fs-13 lh-16 win" style="width: 794px;">
@@ -1023,66 +1003,70 @@ const originalHtml = `
                            </div>
                         </h6>
                         <div class="text-area rich-text-area">
-                           <div refb="f7e74fe3-fc69-11ec-83ea-3d870eff2768"></div>
-                           <div refb="f7e74fe3-fc69-11ec-83ea-3d870eff2768">
-                              <ul refb="f7e74fe4-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74fe4-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74fe5-fc69-11ec-83ea-3d870eff2768"><span>Resumed </span><span>value: </span></li>
-                                 <li class="description " refb="f7e74fe5-fc69-11ec-83ea-3d870eff2768"><span>Resumed </span><span>value: </span></li>
+                           <div refb="d0f2af23-0e88-11ed-9806-a3b52c4be07c"></div>
+                           <div refb="d0f2af23-0e88-11ed-9806-a3b52c4be07c">
+                              <ul refb="d0f2af24-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af24-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af25-0e88-11ed-9806-a3b52c4be07c"><span>Resumed </span><span>value: </span></li>
+                                 <li class="description " refb="d0f2af25-0e88-11ed-9806-a3b52c4be07c"><span>Resumed </span><span>value: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74fe6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
-                              <div class="description " refb="f7e74fe6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
-                              <ul refb="f7e74fe7-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74fe7-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74fe8-fc69-11ec-83ea-3d870eff2768"><span>Front-end: </span></li>
-                                 <li class="description " refb="f7e74fe8-fc69-11ec-83ea-3d870eff2768"><span>Front-end: </span></li>
+                              <div class="description " refb="d0f2af26-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span></div>
+                              <div class="description " refb="d0f2af26-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>4 </span><span>years </span><span>of </span><span>experience </span><span>in </span><span>system </span><span>development </span><span>(websites, </span><span>API's, </span></div>
+                              <div class="description " refb="d0f2af27-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <div class="description " refb="d0f2af27-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>workers, </span><span>mobile </span><span>applications </span><span>and </span><span>automated </span><span>tests)</span></div>
+                              <ul refb="d0f2af28-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af28-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af29-0e88-11ed-9806-a3b52c4be07c"><span>Front-end: </span></li>
+                                 <li class="description " refb="d0f2af29-0e88-11ed-9806-a3b52c4be07c"><span>Front-end: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74fe9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
-                              <div class="description " refb="f7e74fe9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
-                              <ul refb="f7e74fea-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74fea-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74feb-fc69-11ec-83ea-3d870eff2768"><span>Back-end: </span></li>
-                                 <li class="description " refb="f7e74feb-fc69-11ec-83ea-3d870eff2768"><span>Back-end: </span></li>
+                              <div class="description " refb="d0f2af2a-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <div class="description " refb="d0f2af2a-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Angular, </span><span>VueJs, </span><span>Angular </span><span>Material, </span><span>Bootstrap, </span><span>BootstrapVue, </span><span>Vuetify</span></div>
+                              <ul refb="d0f2af2b-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af2b-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af2c-0e88-11ed-9806-a3b52c4be07c"><span>Back-end: </span></li>
+                                 <li class="description " refb="d0f2af2c-0e88-11ed-9806-a3b52c4be07c"><span>Back-end: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74fec-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
-                              <div class="description " refb="f7e74fec-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>SpecFlow, </span><span><a href="http://xunit.net" class="linkified" target="_blank" rel="noopener noreferrer nofollow ugc">XUnit.net</a>, </span><span>MediatR</span></div>
-                              <div class="description " refb="f7e74fed-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Node, </span><span>Express</span></div>
-                              <div class="description " refb="f7e74fed-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Node, </span><span>Express</span></div>
-                              <ul refb="f7e74fee-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74fee-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74fef-fc69-11ec-83ea-3d870eff2768"><span>Mobile:	</span></li>
-                                 <li class="description " refb="f7e74fef-fc69-11ec-83ea-3d870eff2768"><span>Mobile:	</span></li>
+                              <div class="description " refb="d0f2af2d-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>MediatR</span></div>
+                              <div class="description " refb="d0f2af2d-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>.Net, </span><span>.Net </span><span>Core, </span><span>RabbitMQ, </span><span>Entity </span><span>Framework, </span><span>Identity, </span><span>MediatR</span></div>
+                              <div class="description " refb="d0f2af2e-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SpecFlow, </span><span>XUnit</span></div>
+                              <div class="description " refb="d0f2af2e-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SpecFlow, </span><span>XUnit</span></div>
+                              <div class="description " refb="d0f2af2f-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Node, </span><span>Express</span></div>
+                              <div class="description " refb="d0f2af2f-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Node, </span><span>Express</span></div>
+                              <ul refb="d0f2af30-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af30-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af31-0e88-11ed-9806-a3b52c4be07c"><span>Mobile:	</span></li>
+                                 <li class="description " refb="d0f2af31-0e88-11ed-9806-a3b52c4be07c"><span>Mobile:	</span></li>
                               </ul>
-                              <div class="description " refb="f7e74ff0-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Flutter</span></div>
-                              <div class="description " refb="f7e74ff0-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Flutter</span></div>
-                              <ul refb="f7e74ff1-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74ff1-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74ff2-fc69-11ec-83ea-3d870eff2768"><span>Programming </span><span>languages: </span></li>
-                                 <li class="description " refb="f7e74ff2-fc69-11ec-83ea-3d870eff2768"><span>Programming </span><span>languages: </span></li>
+                              <div class="description " refb="d0f2af32-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Flutter</span></div>
+                              <div class="description " refb="d0f2af32-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Flutter</span></div>
+                              <ul refb="d0f2af33-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af33-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af34-0e88-11ed-9806-a3b52c4be07c"><span>Programming </span><span>languages: </span></li>
+                                 <li class="description " refb="d0f2af34-0e88-11ed-9806-a3b52c4be07c"><span>Programming </span><span>languages: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74ff3-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
-                              <div class="description " refb="f7e74ff3-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
-                              <ul refb="f7e74ff4-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74ff4-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74ff5-fc69-11ec-83ea-3d870eff2768"><span>Database: </span></li>
-                                 <li class="description " refb="f7e74ff5-fc69-11ec-83ea-3d870eff2768"><span>Database: </span></li>
+                              <div class="description " refb="d0f2af35-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <div class="description " refb="d0f2af35-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>C#, </span><span>Typescript, </span><span>Dart, </span><span>Javascript, </span><span>C++</span></div>
+                              <ul refb="d0f2af36-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af36-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af37-0e88-11ed-9806-a3b52c4be07c"><span>Database: </span></li>
+                                 <li class="description " refb="d0f2af37-0e88-11ed-9806-a3b52c4be07c"><span>Database: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74ff6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
-                              <div class="description " refb="f7e74ff6-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
-                              <ul refb="f7e74ff7-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74ff7-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74ff8-fc69-11ec-83ea-3d870eff2768"><span>Agile </span><span>methodologies: </span></li>
-                                 <li class="description " refb="f7e74ff8-fc69-11ec-83ea-3d870eff2768"><span>Agile </span><span>methodologies: </span></li>
+                              <div class="description " refb="d0f2af38-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <div class="description " refb="d0f2af38-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>SqlServer, </span><span>MongoDb, </span><span>Mysql, </span><span>Firebird, </span><span>PostgresSQL, </span><span>Couchbase(cache)</span></div>
+                              <ul refb="d0f2af39-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af39-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af3a-0e88-11ed-9806-a3b52c4be07c"><span>Agile </span><span>methodologies: </span></li>
+                                 <li class="description " refb="d0f2af3a-0e88-11ed-9806-a3b52c4be07c"><span>Agile </span><span>methodologies: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74ff9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
-                              <div class="description " refb="f7e74ff9-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
-                              <ul refb="f7e74ffa-fc69-11ec-83ea-3d870eff2768"></ul>
-                              <ul refb="f7e74ffa-fc69-11ec-83ea-3d870eff2768">
-                                 <li class="description " refb="f7e74ffb-fc69-11ec-83ea-3d870eff2768"><span>Devops </span><span>and </span><span>others: </span></li>
-                                 <li class="description " refb="f7e74ffb-fc69-11ec-83ea-3d870eff2768"><span>Devops </span><span>and </span><span>others: </span></li>
+                              <div class="description " refb="d0f2af3b-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <div class="description " refb="d0f2af3b-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Scrum </span><span>and </span><span>Kanban</span></div>
+                              <ul refb="d0f2af3c-0e88-11ed-9806-a3b52c4be07c"></ul>
+                              <ul refb="d0f2af3c-0e88-11ed-9806-a3b52c4be07c">
+                                 <li class="description " refb="d0f2af3d-0e88-11ed-9806-a3b52c4be07c"><span>Devops </span><span>and </span><span>others: </span></li>
+                                 <li class="description " refb="d0f2af3d-0e88-11ed-9806-a3b52c4be07c"><span>Devops </span><span>and </span><span>others: </span></li>
                               </ul>
-                              <div class="description " refb="f7e74ffc-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
-                              <div class="description " refb="f7e74ffc-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                              <div class="description " refb="d0f2af3e-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
+                              <div class="description " refb="d0f2af3e-0e88-11ed-9806-a3b52c4be07c"><span> </span><span> </span><span> </span><span> </span><span> </span><span> </span><span>- </span><span>Azure </span><span>Devops, </span><span>Git, </span><span>Docker, </span><span>Firebase, </span><span>Heroku</span></div>
                            </div>
                            <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
                            <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
@@ -1137,18 +1121,18 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f7e75003-fc69-11ec-83ea-3d870eff2768"></div>
-                                 <div refb="f7e75003-fc69-11ec-83ea-3d870eff2768">
-                                    <ul refb="f7e75004-fc69-11ec-83ea-3d870eff2768"></ul>
-                                    <ul refb="f7e75004-fc69-11ec-83ea-3d870eff2768">
-                                       <li class="description " refb="f7e75005-fc69-11ec-83ea-3d870eff2768"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="f7e75005-fc69-11ec-83ea-3d870eff2768"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
-                                       <li class="description " refb="f7e75006-fc69-11ec-83ea-3d870eff2768"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="f7e75006-fc69-11ec-83ea-3d870eff2768"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
-                                       <li class="description " refb="f7e75007-fc69-11ec-83ea-3d870eff2768"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="f7e75007-fc69-11ec-83ea-3d870eff2768"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
-                                       <li class="description " refb="f7e75008-fc69-11ec-83ea-3d870eff2768"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
-                                       <li class="description " refb="f7e75008-fc69-11ec-83ea-3d870eff2768"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                 <div refb="d0f2af45-0e88-11ed-9806-a3b52c4be07c"></div>
+                                 <div refb="d0f2af45-0e88-11ed-9806-a3b52c4be07c">
+                                    <ul refb="d0f2af46-0e88-11ed-9806-a3b52c4be07c"></ul>
+                                    <ul refb="d0f2af46-0e88-11ed-9806-a3b52c4be07c">
+                                       <li class="description " refb="d0f2af47-0e88-11ed-9806-a3b52c4be07c"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="d0f2af47-0e88-11ed-9806-a3b52c4be07c"><span>FUNDAMENTALS </span><span>that </span><span>deals </span><span>with </span><span>all </span><span>the </span><span>Mathematics </span><span>involved, </span><span>working </span><span>the </span><span>Logic </span><span>and </span><span>Algorithms </span><span>part, </span><span>and </span><span>connecting </span><span>these </span><span>concepts </span><span>in </span><span>a </span><span>solid </span><span>database, </span><span>Data </span><span>Persistence </span><span>and </span><span>Network </span><span>Infrastructure</span></li>
+                                       <li class="description " refb="d0f2af48-0e88-11ed-9806-a3b52c4be07c"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="d0f2af48-0e88-11ed-9806-a3b52c4be07c"><span>TECHNICIAN </span><span>with </span><span>languages </span><span>(Structured, </span><span>Script, </span><span>Object </span><span>Oriented, </span><span>Functional) </span><span>exploring </span><span>a </span><span>problem </span><span>decomposition </span><span>(Analysis </span><span>with </span><span>Lean </span><span>techniques), </span><span>its </span><span>modeling </span><span>and </span><span>optimization. </span><span>Concepts </span><span>such </span><span>as </span><span>TDD </span><span>(Test </span><span>Driven </span><span>Development), </span><span>SCRUM, </span><span>UX, </span><span>Kanban, </span><span>Design </span><span>Thinking, </span><span>CI/CD </span><span>(Continuous </span><span>Integration </span><span>and </span><span>Continuous </span><span>Delivery)</span></li>
+                                       <li class="description " refb="d0f2af49-0e88-11ed-9806-a3b52c4be07c"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="d0f2af49-0e88-11ed-9806-a3b52c4be07c"><span>TOOLS </span><span>programming </span><span>and </span><span>their </span><span>languages, </span><span>modeling, </span><span>functional </span><span>and </span><span>non-functional </span><span>quality, </span><span>testing, </span><span>orchestration, </span><span>monitoring </span><span>are </span><span>broadly </span><span>addressed</span></li>
+                                       <li class="description " refb="d0f2af4a-0e88-11ed-9806-a3b52c4be07c"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
+                                       <li class="description " refb="d0f2af4a-0e88-11ed-9806-a3b52c4be07c"><span>CULTURE </span><span>is </span><span>approached </span><span>as </span><span>a </span><span>cross-discipline </span><span>development, </span><span>focusing </span><span>on </span><span>Agile, </span><span>DevSecOps </span><span>and </span><span>Collaborative </span><span>practices</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1203,14 +1187,14 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f7e7500e-fc69-11ec-83ea-3d870eff2768"></div>
-                                 <div refb="f7e7500e-fc69-11ec-83ea-3d870eff2768">
-                                    <div class="description " refb="f7e7500f-fc69-11ec-83ea-3d870eff2768"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f7e7500f-fc69-11ec-83ea-3d870eff2768"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <ul refb="f7e75010-fc69-11ec-83ea-3d870eff2768"></ul>
-                                    <ul refb="f7e75010-fc69-11ec-83ea-3d870eff2768">
-                                       <li class="description " refb="f7e75011-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
-                                       <li class="description " refb="f7e75011-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                 <div refb="d0f2af50-0e88-11ed-9806-a3b52c4be07c"></div>
+                                 <div refb="d0f2af50-0e88-11ed-9806-a3b52c4be07c">
+                                    <div class="description " refb="d0f2af51-0e88-11ed-9806-a3b52c4be07c"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="d0f2af51-0e88-11ed-9806-a3b52c4be07c"><span>-Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <ul refb="d0f2af52-0e88-11ed-9806-a3b52c4be07c"></ul>
+                                    <ul refb="d0f2af52-0e88-11ed-9806-a3b52c4be07c">
+                                       <li class="description " refb="d0f2af53-0e88-11ed-9806-a3b52c4be07c"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
+                                       <li class="description " refb="d0f2af53-0e88-11ed-9806-a3b52c4be07c"><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>RabbitMQ </span><span>· </span><span>Azure </span><span>DevOps </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1239,16 +1223,16 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f7e75016-fc69-11ec-83ea-3d870eff2768"></div>
-                                 <div refb="f7e75016-fc69-11ec-83ea-3d870eff2768">
-                                    <div class="description " refb="f7e75017-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f7e75017-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
-                                    <div class="description " refb="f7e75018-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <div class="description " refb="f7e75018-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
-                                    <ul refb="f7e75019-fc69-11ec-83ea-3d870eff2768"></ul>
-                                    <ul refb="f7e75019-fc69-11ec-83ea-3d870eff2768">
-                                       <li class="description " refb="f7e7501a-fc69-11ec-83ea-3d870eff2768"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
-                                       <li class="description " refb="f7e7501a-fc69-11ec-83ea-3d870eff2768"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                 <div refb="d0f2af58-0e88-11ed-9806-a3b52c4be07c"></div>
+                                 <div refb="d0f2af58-0e88-11ed-9806-a3b52c4be07c">
+                                    <div class="description " refb="d0f2af59-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="d0f2af59-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>of </span><span>new </span><span>features </span><span>and </span><span>maintenance </span><span>of </span><span>company </span><span>systems </span><span>based </span><span>on </span><span>the </span><span>.Net </span><span>Core </span><span>and </span><span>Angular</span></div>
+                                    <div class="description " refb="d0f2af5a-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <div class="description " refb="d0f2af5a-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Maintenance </span><span>of </span><span>software </span><span>legacy </span><span>made </span><span>with </span><span>.NET </span><span>MVC</span></div>
+                                    <ul refb="d0f2af5b-0e88-11ed-9806-a3b52c4be07c"></ul>
+                                    <ul refb="d0f2af5b-0e88-11ed-9806-a3b52c4be07c">
+                                       <li class="description " refb="d0f2af5c-0e88-11ed-9806-a3b52c4be07c"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
+                                       <li class="description " refb="d0f2af5c-0e88-11ed-9806-a3b52c4be07c"><span>MongoDB </span><span>· </span><span>.NET </span><span>Core </span><span>· </span><span>Angular </span><span>(Framework) </span><span>· </span><span>Azure </span><span>DevOps</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1277,16 +1261,16 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f7e7501f-fc69-11ec-83ea-3d870eff2768"></div>
-                                 <div refb="f7e7501f-fc69-11ec-83ea-3d870eff2768">
-                                    <div class="description " refb="f7e75020-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="f7e75020-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
-                                    <div class="description " refb="f7e75021-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <div class="description " refb="f7e75021-fc69-11ec-83ea-3d870eff2768"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
-                                    <ul refb="f7e75022-fc69-11ec-83ea-3d870eff2768"></ul>
-                                    <ul refb="f7e75022-fc69-11ec-83ea-3d870eff2768">
-                                       <li class="description " refb="f7e75023-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
-                                       <li class="description " refb="f7e75023-fc69-11ec-83ea-3d870eff2768"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                 <div refb="d0f2af61-0e88-11ed-9806-a3b52c4be07c"></div>
+                                 <div refb="d0f2af61-0e88-11ed-9806-a3b52c4be07c">
+                                    <div class="description " refb="d0f2af62-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="d0f2af62-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>software </span><span>to </span><span>perform </span><span>integrations </span><span>between </span><span>the </span><span>Donuz </span><span>system </span><span>and </span><span>third-party </span><span>systems </span><span>using </span><span>.Net. </span><span>The </span><span>integrations </span><span>were </span><span>made </span><span>through </span><span>Rest </span><span>APIs, </span><span>reading </span><span>of </span><span>database </span><span>and </span><span>worksheets.</span></div>
+                                    <div class="description " refb="d0f2af63-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <div class="description " refb="d0f2af63-0e88-11ed-9806-a3b52c4be07c"><span>- </span><span>Development </span><span>and </span><span>maintenance </span><span>of </span><span>applications </span><span>for </span><span>web, </span><span>using </span><span>Vue.js</span></div>
+                                    <ul refb="d0f2af64-0e88-11ed-9806-a3b52c4be07c"></ul>
+                                    <ul refb="d0f2af64-0e88-11ed-9806-a3b52c4be07c">
+                                       <li class="description " refb="d0f2af65-0e88-11ed-9806-a3b52c4be07c"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
+                                       <li class="description " refb="d0f2af65-0e88-11ed-9806-a3b52c4be07c"><span>.NET </span><span>Framework </span><span>· </span><span>Vuejs </span><span>· </span><span>Microsoft </span><span>SQL </span><span>Server </span><span>· </span><span>MySQL </span><span>· </span><span>PostgreSQL</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -1315,18 +1299,18 @@ const originalHtml = `
                               </div>
                               <div class="experience-description"></div>
                               <div class="experience-description">
-                                 <div refb="f7e75028-fc69-11ec-83ea-3d870eff2768"></div>
-                                 <div refb="f7e75028-fc69-11ec-83ea-3d870eff2768">
-                                    <ul refb="f7e75029-fc69-11ec-83ea-3d870eff2768"></ul>
-                                    <ul refb="f7e75029-fc69-11ec-83ea-3d870eff2768">
-                                       <li class="description " refb="f7e7502a-fc69-11ec-83ea-3d870eff2768"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="f7e7502a-fc69-11ec-83ea-3d870eff2768"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
-                                       <li class="description " refb="f7e7502b-fc69-11ec-83ea-3d870eff2768"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="f7e7502b-fc69-11ec-83ea-3d870eff2768"><span>Network </span><span>Settings</span></li>
-                                       <li class="description " refb="f7e7502c-fc69-11ec-83ea-3d870eff2768"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="f7e7502c-fc69-11ec-83ea-3d870eff2768"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
-                                       <li class="description " refb="f7e7502d-fc69-11ec-83ea-3d870eff2768"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
-                                       <li class="description " refb="f7e7502d-fc69-11ec-83ea-3d870eff2768"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                 <div refb="d0f2af6a-0e88-11ed-9806-a3b52c4be07c"></div>
+                                 <div refb="d0f2af6a-0e88-11ed-9806-a3b52c4be07c">
+                                    <ul refb="d0f2af6b-0e88-11ed-9806-a3b52c4be07c"></ul>
+                                    <ul refb="d0f2af6b-0e88-11ed-9806-a3b52c4be07c">
+                                       <li class="description " refb="d0f2af6c-0e88-11ed-9806-a3b52c4be07c"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="d0f2af6c-0e88-11ed-9806-a3b52c4be07c"><span> </span><span>Maintenance </span><span>of </span><span>company </span><span>computers</span></li>
+                                       <li class="description " refb="d0f2af6d-0e88-11ed-9806-a3b52c4be07c"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="d0f2af6d-0e88-11ed-9806-a3b52c4be07c"><span>Network </span><span>Settings</span></li>
+                                       <li class="description " refb="d0f2af6e-0e88-11ed-9806-a3b52c4be07c"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="d0f2af6e-0e88-11ed-9806-a3b52c4be07c"><span>Creation </span><span>of </span><span>spreadsheets </span><span>in </span><span>Excel, </span><span>arts </span><span>with </span><span>Publisher, </span><span>text </span><span>editing </span><span>with </span><span>Word</span></li>
+                                       <li class="description " refb="d0f2af6f-0e88-11ed-9806-a3b52c4be07c"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
+                                       <li class="description " refb="d0f2af6f-0e88-11ed-9806-a3b52c4be07c"><span>Tax </span><span>calculation, </span><span>release </span><span>and </span><span>issuance </span><span>of </span><span>invoices.</span></li>
                                     </ul>
                                  </div>
                               </div>
@@ -2048,37 +2032,6 @@ const originalHtml = `
                               </div>
                            </div>
                         </div>
-                        <div class="experience-item"></div>
-                        <div class="experience-item">
-                           <div class="column left-column-render">
-                              <div class="experience-info">
-                                 <div class="date">09/2015</div>
-                              </div>
-                              <div class="experience-info">
-                                 <div class="date">09/2015</div>
-                              </div>
-                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
-                              <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
-                           </div>
-                           <div class="column right-column-render">
-                              <div class="experience-description">
-                                 <div class="publication-name">Assembly and maintenance of computers</div>
-                                 <div class="publisher">Online Informatica</div>
-                                 <div class="url"><a href="#" target="_blank" rel="noopener noreferrer nofollow ugc"></a></div>
-                                 <div>
-                                    <div class="description "></div>
-                                 </div>
-                              </div>
-                              <div class="experience-description">
-                                 <div class="publication-name">Assembly and maintenance of computers</div>
-                                 <div class="publisher">Online Informatica</div>
-                                 <div class="url"><a href="#" target="_blank" rel="noopener noreferrer nofollow ugc"></a></div>
-                                 <div>
-                                    <div class="description "></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
                      </div>
                      <div class="kickresume-section-wrapper skill-section type-one  column-wrapper " id="492e9995-1a34-4271-a7a0-b39567814962">
                         <div class="NoteDetails__note-detail___yB3Xx5OauH note-detail-item">&nbsp;</div>
@@ -2121,7 +2074,7 @@ const originalHtml = `
                                  <div class="skill ">
                                     <div class="skill-name">English</div>
                                     <div class="skill-description-wrapper text">
-                                       <div class="skill-description">Basic / Intermediate</div>
+                                       <div class="skill-description">Intermediate</div>
                                     </div>
                                  </div>
                               </div>
@@ -2141,7 +2094,7 @@ const originalHtml = `
                                  <div class="skill ">
                                     <div class="skill-name">English</div>
                                     <div class="skill-description-wrapper text">
-                                       <div class="skill-description">Basic / Intermediate</div>
+                                       <div class="skill-description">Intermediate</div>
                                     </div>
                                  </div>
                               </div>

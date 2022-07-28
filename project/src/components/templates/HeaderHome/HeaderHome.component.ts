@@ -11,6 +11,11 @@ export default class HeaderHomeComponent extends Vue {
 
 	profileLinks: ProfileLink[] = [
 		{
+			icon: "fluent:document-briefcase-20-filled",
+			text: "Resume",
+			link: "/resume",
+		},
+		{
 			icon: "foundation:social-linkedin",
 			text: "/arthurcabrallemos",
 			link: "https://www.linkedin.com/in/arthurcabrallemos/",
@@ -23,11 +28,6 @@ export default class HeaderHomeComponent extends Vue {
 		{
 			icon: "dashicons:email-alt2",
 			text: "cabraltec02@gmail.com",
-		},
-		{
-			icon: "fluent:document-briefcase-20-filled",
-			text: "Resume",
-			link: "/resume",
 		},
 	]
 

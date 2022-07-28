@@ -6,7 +6,7 @@
     <div class="face back">
       <h2 v-html="project.title"></h2>
       <p v-html="project.text"></p>
-      <a :href="project.link" target="_blank" class="btn"> Visitar </a>
+      <a :href="project.link" target="_blank" class="btn"> Visit </a>
     </div>
   </div>
 </template>
